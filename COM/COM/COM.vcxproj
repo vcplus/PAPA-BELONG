@@ -43,6 +43,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>C:\Users\ASUS\Documents\GitHub\PAPA-BELONG\COM\COM;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Users\ASUS\Documents\GitHub\PAPA-BELONG\COM\COM;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

@@ -1,0 +1,52 @@
+﻿生成启动时间为 2018/11/30 19:09:54。
+     1>项目“C:\Users\ASUS\Documents\GitHub\PAPA-BELONG\COM\COM\COM.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\COM.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\COM.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp COM.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(40): warning C4947: “RequestMinimum”: 标记为已过时
+                 消息: “Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.”
+         COM.cpp
+     1>c:\users\asus\documents\github\papa-belong\com\com\PID.h(62): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2243): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2166): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2262): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2266): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2267): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2268): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2273): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2274): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2275): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2289): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2292): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2293): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2294): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2301): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2302): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2303): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2318): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2321): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2322): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2323): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2329): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2330): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\asus\documents\github\papa-belong\com\com\Form1.h(2331): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+     1>c:\users\asus\documents\github\papa-belong\com\com\form1.h(2262): warning C4700: 使用了未初始化的局部变量“temp”
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\ASUS\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Documents\GitHub\PAPA-BELONG\COM\Release\COM.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\COM.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ASUS\Documents\GitHub\PAPA-BELONG\COM\Release\COM.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\app.res
+         Release\AssemblyInfo.obj
+         Release\COM.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         COM.vcxproj -> C:\Users\ASUS\Documents\GitHub\PAPA-BELONG\COM\Release\COM.exe
+     1>已完成生成项目“C:\Users\ASUS\Documents\GitHub\PAPA-BELONG\COM\COM\COM.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.99
