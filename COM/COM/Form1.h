@@ -178,10 +178,36 @@ private: System::Windows::Forms::NumericUpDown^  numericUpDown29;
 private: System::Windows::Forms::NumericUpDown^  numericUpDown34;
 private: System::Windows::Forms::NumericUpDown^  numericUpDown33;
 private: System::Windows::Forms::NumericUpDown^  numericUpDown32;
-private: System::Windows::Forms::ListBox^  listBox2;
+
 private: System::Windows::Forms::Button^  button7;
-private: System::Windows::Forms::Label^  label48;
+
 private: System::Windows::Forms::GroupBox^  groupBox9;
+private: System::Windows::Forms::Label^  label58;
+private: System::Windows::Forms::Label^  label59;
+private: System::Windows::Forms::Label^  label60;
+private: System::Windows::Forms::GroupBox^  groupBox10;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown52;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown51;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown50;
+private: System::Windows::Forms::Label^  label51;
+private: System::Windows::Forms::Label^  label50;
+private: System::Windows::Forms::Label^  label49;
+private: System::Windows::Forms::GroupBox^  groupBox11;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown53;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown54;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown55;
+private: System::Windows::Forms::Label^  label52;
+private: System::Windows::Forms::Label^  label53;
+private: System::Windows::Forms::Label^  label54;
+private: System::Windows::Forms::GroupBox^  groupBox12;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown56;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown57;
+private: System::Windows::Forms::NumericUpDown^  numericUpDown58;
+private: System::Windows::Forms::Label^  label55;
+private: System::Windows::Forms::Label^  label56;
+private: System::Windows::Forms::Label^  label57;
+private: System::Windows::Forms::Label^  label48;
+private: System::Windows::Forms::ListBox^  listBox2;
 
 
 
@@ -331,9 +357,33 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->label40 = (gcnew System::Windows::Forms::Label());
 			this->label41 = (gcnew System::Windows::Forms::Label());
-			this->listBox2 = (gcnew System::Windows::Forms::ListBox());
-			this->label48 = (gcnew System::Windows::Forms::Label());
 			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
+			this->groupBox10 = (gcnew System::Windows::Forms::GroupBox());
+			this->label49 = (gcnew System::Windows::Forms::Label());
+			this->label50 = (gcnew System::Windows::Forms::Label());
+			this->label51 = (gcnew System::Windows::Forms::Label());
+			this->numericUpDown50 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->numericUpDown51 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->numericUpDown52 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->groupBox11 = (gcnew System::Windows::Forms::GroupBox());
+			this->numericUpDown53 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->numericUpDown54 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->numericUpDown55 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->label52 = (gcnew System::Windows::Forms::Label());
+			this->label53 = (gcnew System::Windows::Forms::Label());
+			this->label54 = (gcnew System::Windows::Forms::Label());
+			this->groupBox12 = (gcnew System::Windows::Forms::GroupBox());
+			this->numericUpDown56 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->numericUpDown57 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->numericUpDown58 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->label55 = (gcnew System::Windows::Forms::Label());
+			this->label56 = (gcnew System::Windows::Forms::Label());
+			this->label57 = (gcnew System::Windows::Forms::Label());
+			this->label58 = (gcnew System::Windows::Forms::Label());
+			this->label59 = (gcnew System::Windows::Forms::Label());
+			this->label60 = (gcnew System::Windows::Forms::Label());
+			this->label48 = (gcnew System::Windows::Forms::Label());
+			this->listBox2 = (gcnew System::Windows::Forms::ListBox());
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			this->statusStrip1->SuspendLayout();
@@ -395,6 +445,18 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown33))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown32))->BeginInit();
 			this->groupBox9->SuspendLayout();
+			this->groupBox10->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown50))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown51))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown52))->BeginInit();
+			this->groupBox11->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown53))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown54))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown55))->BeginInit();
+			this->groupBox12->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown56))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown57))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown58))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// groupBox1
@@ -821,7 +883,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Padding = System::Windows::Forms::Padding(5, 3, 0, 3);
-			this->menuStrip1->Size = System::Drawing::Size(1679, 27);
+			this->menuStrip1->Size = System::Drawing::Size(1657, 27);
 			this->menuStrip1->TabIndex = 28;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -872,6 +934,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			// 
 			// groupBox3
 			// 
+			this->groupBox3->Controls->Add(this->label58);
 			this->groupBox3->Controls->Add(this->numericUpDown38);
 			this->groupBox3->Controls->Add(this->numericUpDown39);
 			this->groupBox3->Controls->Add(this->numericUpDown40);
@@ -899,7 +962,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->groupBox3->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox3->Name = L"groupBox3";
 			this->groupBox3->Padding = System::Windows::Forms::Padding(4);
-			this->groupBox3->Size = System::Drawing::Size(416, 252);
+			this->groupBox3->Size = System::Drawing::Size(416, 227);
 			this->groupBox3->TabIndex = 32;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"第一车厢";
@@ -940,7 +1003,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			// 
 			// numericUpDown35
 			// 
-			this->numericUpDown35->Location = System::Drawing::Point(272, 219);
+			this->numericUpDown35->Location = System::Drawing::Point(319, 190);
 			this->numericUpDown35->Name = L"numericUpDown35";
 			this->numericUpDown35->Size = System::Drawing::Size(59, 26);
 			this->numericUpDown35->TabIndex = 30;
@@ -951,7 +1014,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->label43->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label43->ForeColor = System::Drawing::Color::Red;
-			this->label43->Location = System::Drawing::Point(82, 219);
+			this->label43->Location = System::Drawing::Point(148, 193);
 			this->label43->Name = L"label43";
 			this->label43->Size = System::Drawing::Size(24, 16);
 			this->label43->TabIndex = 29;
@@ -960,15 +1023,16 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			// label42
 			// 
 			this->label42->AutoSize = true;
-			this->label42->Location = System::Drawing::Point(155, 224);
+			this->label42->Location = System::Drawing::Point(212, 195);
 			this->label42->Name = L"label42";
-			this->label42->Size = System::Drawing::Size(88, 16);
+			this->label42->Size = System::Drawing::Size(112, 16);
 			this->label42->TabIndex = 28;
-			this->label42->Text = L"dfsdfsdfds";
+			this->label42->Text = L"扰动（0.1）：";
 			this->label42->Click += gcnew System::EventHandler(this, &Form1::label42_Click);
 			// 
 			// groupBox4
 			// 
+			this->groupBox4->Controls->Add(this->label59);
 			this->groupBox4->Controls->Add(this->numericUpDown42);
 			this->groupBox4->Controls->Add(this->numericUpDown43);
 			this->groupBox4->Controls->Add(this->numericUpDown44);
@@ -996,7 +1060,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->groupBox4->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox4->Name = L"groupBox4";
 			this->groupBox4->Padding = System::Windows::Forms::Padding(4);
-			this->groupBox4->Size = System::Drawing::Size(413, 252);
+			this->groupBox4->Size = System::Drawing::Size(413, 227);
 			this->groupBox4->TabIndex = 33;
 			this->groupBox4->TabStop = false;
 			this->groupBox4->Text = L"第二车厢";
@@ -1037,7 +1101,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			// 
 			// numericUpDown36
 			// 
-			this->numericUpDown36->Location = System::Drawing::Point(237, 200);
+			this->numericUpDown36->Location = System::Drawing::Point(315, 192);
 			this->numericUpDown36->Name = L"numericUpDown36";
 			this->numericUpDown36->Size = System::Drawing::Size(59, 26);
 			this->numericUpDown36->TabIndex = 46;
@@ -1048,7 +1112,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->label44->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label44->ForeColor = System::Drawing::Color::Red;
-			this->label44->Location = System::Drawing::Point(47, 200);
+			this->label44->Location = System::Drawing::Point(139, 195);
 			this->label44->Name = L"label44";
 			this->label44->Size = System::Drawing::Size(24, 16);
 			this->label44->TabIndex = 45;
@@ -1057,11 +1121,11 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			// label45
 			// 
 			this->label45->AutoSize = true;
-			this->label45->Location = System::Drawing::Point(120, 204);
+			this->label45->Location = System::Drawing::Point(206, 195);
 			this->label45->Name = L"label45";
-			this->label45->Size = System::Drawing::Size(88, 16);
+			this->label45->Size = System::Drawing::Size(112, 16);
 			this->label45->TabIndex = 44;
-			this->label45->Text = L"dfsdfsdfds";
+			this->label45->Text = L"扰动（0.1）：";
 			// 
 			// label8
 			// 
@@ -1197,6 +1261,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			// 
 			// groupBox5
 			// 
+			this->groupBox5->Controls->Add(this->label60);
 			this->groupBox5->Controls->Add(this->numericUpDown46);
 			this->groupBox5->Controls->Add(this->numericUpDown47);
 			this->groupBox5->Controls->Add(this->numericUpDown48);
@@ -1224,7 +1289,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->groupBox5->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox5->Name = L"groupBox5";
 			this->groupBox5->Padding = System::Windows::Forms::Padding(4);
-			this->groupBox5->Size = System::Drawing::Size(419, 252);
+			this->groupBox5->Size = System::Drawing::Size(419, 227);
 			this->groupBox5->TabIndex = 33;
 			this->groupBox5->TabStop = false;
 			this->groupBox5->Text = L"第三车厢";
@@ -1265,7 +1330,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			// 
 			// numericUpDown37
 			// 
-			this->numericUpDown37->Location = System::Drawing::Point(235, 201);
+			this->numericUpDown37->Location = System::Drawing::Point(315, 185);
 			this->numericUpDown37->Name = L"numericUpDown37";
 			this->numericUpDown37->Size = System::Drawing::Size(59, 26);
 			this->numericUpDown37->TabIndex = 46;
@@ -1276,7 +1341,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->label46->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label46->ForeColor = System::Drawing::Color::Red;
-			this->label46->Location = System::Drawing::Point(44, 201);
+			this->label46->Location = System::Drawing::Point(140, 189);
 			this->label46->Name = L"label46";
 			this->label46->Size = System::Drawing::Size(24, 16);
 			this->label46->TabIndex = 45;
@@ -1285,11 +1350,11 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			// label47
 			// 
 			this->label47->AutoSize = true;
-			this->label47->Location = System::Drawing::Point(117, 205);
+			this->label47->Location = System::Drawing::Point(197, 189);
 			this->label47->Name = L"label47";
-			this->label47->Size = System::Drawing::Size(88, 16);
+			this->label47->Size = System::Drawing::Size(112, 16);
 			this->label47->TabIndex = 44;
-			this->label47->Text = L"dfsdfsdfds";
+			this->label47->Text = L"扰动（0.1）：";
 			// 
 			// label25
 			// 
@@ -1431,7 +1496,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->groupBox6->Controls->Add(this->label35);
 			this->groupBox6->Controls->Add(this->label34);
 			this->groupBox6->Controls->Add(this->label33);
-			this->groupBox6->Location = System::Drawing::Point(43, 447);
+			this->groupBox6->Location = System::Drawing::Point(43, 513);
 			this->groupBox6->Name = L"groupBox6";
 			this->groupBox6->Size = System::Drawing::Size(416, 108);
 			this->groupBox6->TabIndex = 34;
@@ -1497,7 +1562,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->groupBox7->Controls->Add(this->label36);
 			this->groupBox7->Controls->Add(this->label37);
 			this->groupBox7->Controls->Add(this->label38);
-			this->groupBox7->Location = System::Drawing::Point(511, 447);
+			this->groupBox7->Location = System::Drawing::Point(511, 513);
 			this->groupBox7->Name = L"groupBox7";
 			this->groupBox7->Size = System::Drawing::Size(413, 108);
 			this->groupBox7->TabIndex = 35;
@@ -1563,7 +1628,7 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->groupBox8->Controls->Add(this->label39);
 			this->groupBox8->Controls->Add(this->label40);
 			this->groupBox8->Controls->Add(this->label41);
-			this->groupBox8->Location = System::Drawing::Point(976, 447);
+			this->groupBox8->Location = System::Drawing::Point(976, 513);
 			this->groupBox8->Name = L"groupBox8";
 			this->groupBox8->Size = System::Drawing::Size(419, 108);
 			this->groupBox8->TabIndex = 36;
@@ -1621,14 +1686,243 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->label41->TabIndex = 15;
 			this->label41->Text = L"有毒气体";
 			// 
-			// listBox2
+			// groupBox9
 			// 
-			this->listBox2->FormattingEnabled = true;
-			this->listBox2->ItemHeight = 16;
-			this->listBox2->Location = System::Drawing::Point(733, 69);
-			this->listBox2->Name = L"listBox2";
-			this->listBox2->Size = System::Drawing::Size(660, 84);
-			this->listBox2->TabIndex = 37;
+			this->groupBox9->Controls->Add(this->label17);
+			this->groupBox9->Controls->Add(this->numericUpDown9);
+			this->groupBox9->Controls->Add(this->statusStrip1);
+			this->groupBox9->Controls->Add(this->button6);
+			this->groupBox9->Controls->Add(this->button5);
+			this->groupBox9->Location = System::Drawing::Point(43, 639);
+			this->groupBox9->Margin = System::Windows::Forms::Padding(4);
+			this->groupBox9->Name = L"groupBox9";
+			this->groupBox9->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox9->Size = System::Drawing::Size(1336, 88);
+			this->groupBox9->TabIndex = 39;
+			this->groupBox9->TabStop = false;
+			this->groupBox9->Text = L"groupBox9";
+			// 
+			// groupBox10
+			// 
+			this->groupBox10->Controls->Add(this->numericUpDown52);
+			this->groupBox10->Controls->Add(this->numericUpDown51);
+			this->groupBox10->Controls->Add(this->numericUpDown50);
+			this->groupBox10->Controls->Add(this->label51);
+			this->groupBox10->Controls->Add(this->label50);
+			this->groupBox10->Controls->Add(this->label49);
+			this->groupBox10->Location = System::Drawing::Point(43, 409);
+			this->groupBox10->Name = L"groupBox10";
+			this->groupBox10->Size = System::Drawing::Size(416, 89);
+			this->groupBox10->TabIndex = 40;
+			this->groupBox10->TabStop = false;
+			this->groupBox10->Text = L"groupBox10";
+			// 
+			// label49
+			// 
+			this->label49->AutoSize = true;
+			this->label49->Location = System::Drawing::Point(31, 22);
+			this->label49->Name = L"label49";
+			this->label49->Size = System::Drawing::Size(40, 16);
+			this->label49->TabIndex = 15;
+			this->label49->Text = L"经度";
+			// 
+			// label50
+			// 
+			this->label50->AutoSize = true;
+			this->label50->Location = System::Drawing::Point(167, 22);
+			this->label50->Name = L"label50";
+			this->label50->Size = System::Drawing::Size(40, 16);
+			this->label50->TabIndex = 16;
+			this->label50->Text = L"纬度";
+			// 
+			// label51
+			// 
+			this->label51->AutoSize = true;
+			this->label51->Location = System::Drawing::Point(312, 22);
+			this->label51->Name = L"label51";
+			this->label51->Size = System::Drawing::Size(40, 16);
+			this->label51->TabIndex = 17;
+			this->label51->Text = L"误差";
+			// 
+			// numericUpDown50
+			// 
+			this->numericUpDown50->DecimalPlaces = 3;
+			this->numericUpDown50->Location = System::Drawing::Point(34, 49);
+			this->numericUpDown50->Name = L"numericUpDown50";
+			this->numericUpDown50->Size = System::Drawing::Size(100, 26);
+			this->numericUpDown50->TabIndex = 23;
+			// 
+			// numericUpDown51
+			// 
+			this->numericUpDown51->DecimalPlaces = 3;
+			this->numericUpDown51->Location = System::Drawing::Point(170, 49);
+			this->numericUpDown51->Name = L"numericUpDown51";
+			this->numericUpDown51->Size = System::Drawing::Size(103, 26);
+			this->numericUpDown51->TabIndex = 24;
+			// 
+			// numericUpDown52
+			// 
+			this->numericUpDown52->Location = System::Drawing::Point(315, 49);
+			this->numericUpDown52->Name = L"numericUpDown52";
+			this->numericUpDown52->Size = System::Drawing::Size(61, 26);
+			this->numericUpDown52->TabIndex = 25;
+			// 
+			// groupBox11
+			// 
+			this->groupBox11->Controls->Add(this->numericUpDown53);
+			this->groupBox11->Controls->Add(this->numericUpDown54);
+			this->groupBox11->Controls->Add(this->numericUpDown55);
+			this->groupBox11->Controls->Add(this->label52);
+			this->groupBox11->Controls->Add(this->label53);
+			this->groupBox11->Controls->Add(this->label54);
+			this->groupBox11->Location = System::Drawing::Point(511, 409);
+			this->groupBox11->Name = L"groupBox11";
+			this->groupBox11->Size = System::Drawing::Size(416, 89);
+			this->groupBox11->TabIndex = 41;
+			this->groupBox11->TabStop = false;
+			this->groupBox11->Text = L"groupBox11";
+			// 
+			// numericUpDown53
+			// 
+			this->numericUpDown53->Location = System::Drawing::Point(315, 49);
+			this->numericUpDown53->Name = L"numericUpDown53";
+			this->numericUpDown53->Size = System::Drawing::Size(61, 26);
+			this->numericUpDown53->TabIndex = 25;
+			// 
+			// numericUpDown54
+			// 
+			this->numericUpDown54->DecimalPlaces = 3;
+			this->numericUpDown54->Location = System::Drawing::Point(170, 49);
+			this->numericUpDown54->Name = L"numericUpDown54";
+			this->numericUpDown54->Size = System::Drawing::Size(103, 26);
+			this->numericUpDown54->TabIndex = 24;
+			// 
+			// numericUpDown55
+			// 
+			this->numericUpDown55->DecimalPlaces = 3;
+			this->numericUpDown55->Location = System::Drawing::Point(34, 49);
+			this->numericUpDown55->Name = L"numericUpDown55";
+			this->numericUpDown55->Size = System::Drawing::Size(100, 26);
+			this->numericUpDown55->TabIndex = 23;
+			// 
+			// label52
+			// 
+			this->label52->AutoSize = true;
+			this->label52->Location = System::Drawing::Point(312, 22);
+			this->label52->Name = L"label52";
+			this->label52->Size = System::Drawing::Size(40, 16);
+			this->label52->TabIndex = 17;
+			this->label52->Text = L"误差";
+			// 
+			// label53
+			// 
+			this->label53->AutoSize = true;
+			this->label53->Location = System::Drawing::Point(167, 22);
+			this->label53->Name = L"label53";
+			this->label53->Size = System::Drawing::Size(40, 16);
+			this->label53->TabIndex = 16;
+			this->label53->Text = L"纬度";
+			// 
+			// label54
+			// 
+			this->label54->AutoSize = true;
+			this->label54->Location = System::Drawing::Point(31, 22);
+			this->label54->Name = L"label54";
+			this->label54->Size = System::Drawing::Size(40, 16);
+			this->label54->TabIndex = 15;
+			this->label54->Text = L"经度";
+			// 
+			// groupBox12
+			// 
+			this->groupBox12->Controls->Add(this->numericUpDown56);
+			this->groupBox12->Controls->Add(this->numericUpDown57);
+			this->groupBox12->Controls->Add(this->numericUpDown58);
+			this->groupBox12->Controls->Add(this->label55);
+			this->groupBox12->Controls->Add(this->label56);
+			this->groupBox12->Controls->Add(this->label57);
+			this->groupBox12->Location = System::Drawing::Point(976, 409);
+			this->groupBox12->Name = L"groupBox12";
+			this->groupBox12->Size = System::Drawing::Size(416, 89);
+			this->groupBox12->TabIndex = 42;
+			this->groupBox12->TabStop = false;
+			this->groupBox12->Text = L"groupBox12";
+			// 
+			// numericUpDown56
+			// 
+			this->numericUpDown56->Location = System::Drawing::Point(315, 49);
+			this->numericUpDown56->Name = L"numericUpDown56";
+			this->numericUpDown56->Size = System::Drawing::Size(61, 26);
+			this->numericUpDown56->TabIndex = 25;
+			// 
+			// numericUpDown57
+			// 
+			this->numericUpDown57->DecimalPlaces = 3;
+			this->numericUpDown57->Location = System::Drawing::Point(170, 49);
+			this->numericUpDown57->Name = L"numericUpDown57";
+			this->numericUpDown57->Size = System::Drawing::Size(103, 26);
+			this->numericUpDown57->TabIndex = 24;
+			// 
+			// numericUpDown58
+			// 
+			this->numericUpDown58->DecimalPlaces = 3;
+			this->numericUpDown58->Location = System::Drawing::Point(34, 49);
+			this->numericUpDown58->Name = L"numericUpDown58";
+			this->numericUpDown58->Size = System::Drawing::Size(100, 26);
+			this->numericUpDown58->TabIndex = 23;
+			// 
+			// label55
+			// 
+			this->label55->AutoSize = true;
+			this->label55->Location = System::Drawing::Point(312, 22);
+			this->label55->Name = L"label55";
+			this->label55->Size = System::Drawing::Size(40, 16);
+			this->label55->TabIndex = 17;
+			this->label55->Text = L"误差";
+			// 
+			// label56
+			// 
+			this->label56->AutoSize = true;
+			this->label56->Location = System::Drawing::Point(167, 22);
+			this->label56->Name = L"label56";
+			this->label56->Size = System::Drawing::Size(40, 16);
+			this->label56->TabIndex = 16;
+			this->label56->Text = L"纬度";
+			// 
+			// label57
+			// 
+			this->label57->AutoSize = true;
+			this->label57->Location = System::Drawing::Point(31, 22);
+			this->label57->Name = L"label57";
+			this->label57->Size = System::Drawing::Size(40, 16);
+			this->label57->TabIndex = 15;
+			this->label57->Text = L"经度";
+			// 
+			// label58
+			// 
+			this->label58->AutoSize = true;
+			this->label58->Location = System::Drawing::Point(72, 192);
+			this->label58->Name = L"label58";
+			this->label58->Size = System::Drawing::Size(72, 16);
+			this->label58->TabIndex = 35;
+			this->label58->Text = L"PID调控:";
+			// 
+			// label59
+			// 
+			this->label59->AutoSize = true;
+			this->label59->Location = System::Drawing::Point(62, 195);
+			this->label59->Name = L"label59";
+			this->label59->Size = System::Drawing::Size(72, 16);
+			this->label59->TabIndex = 51;
+			this->label59->Text = L"PID调控:";
+			// 
+			// label60
+			// 
+			this->label60->AutoSize = true;
+			this->label60->Location = System::Drawing::Point(62, 187);
+			this->label60->Name = L"label60";
+			this->label60->Size = System::Drawing::Size(72, 16);
+			this->label60->TabIndex = 52;
+			this->label60->Text = L"PID调控:";
 			// 
 			// label48
 			// 
@@ -1641,28 +1935,24 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			this->label48->TabIndex = 38;
 			this->label48->Text = L"数据接收区";
 			// 
-			// groupBox9
+			// listBox2
 			// 
-			this->groupBox9->Controls->Add(this->label17);
-			this->groupBox9->Controls->Add(this->numericUpDown9);
-			this->groupBox9->Controls->Add(this->statusStrip1);
-			this->groupBox9->Controls->Add(this->button6);
-			this->groupBox9->Controls->Add(this->button5);
-			this->groupBox9->Location = System::Drawing::Point(57, 585);
-			this->groupBox9->Margin = System::Windows::Forms::Padding(4);
-			this->groupBox9->Name = L"groupBox9";
-			this->groupBox9->Padding = System::Windows::Forms::Padding(4);
-			this->groupBox9->Size = System::Drawing::Size(1336, 88);
-			this->groupBox9->TabIndex = 39;
-			this->groupBox9->TabStop = false;
-			this->groupBox9->Text = L"groupBox9";
+			this->listBox2->FormattingEnabled = true;
+			this->listBox2->ItemHeight = 16;
+			this->listBox2->Location = System::Drawing::Point(733, 69);
+			this->listBox2->Name = L"listBox2";
+			this->listBox2->Size = System::Drawing::Size(660, 84);
+			this->listBox2->TabIndex = 37;
 			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Aqua;
-			this->ClientSize = System::Drawing::Size(1679, 713);
+			this->ClientSize = System::Drawing::Size(1657, 740);
+			this->Controls->Add(this->groupBox12);
+			this->Controls->Add(this->groupBox11);
+			this->Controls->Add(this->groupBox10);
 			this->Controls->Add(this->groupBox9);
 			this->Controls->Add(this->label48);
 			this->Controls->Add(this->listBox2);
@@ -1755,6 +2045,21 @@ private: System::Windows::Forms::GroupBox^  groupBox9;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown32))->EndInit();
 			this->groupBox9->ResumeLayout(false);
 			this->groupBox9->PerformLayout();
+			this->groupBox10->ResumeLayout(false);
+			this->groupBox10->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown50))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown51))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown52))->EndInit();
+			this->groupBox11->ResumeLayout(false);
+			this->groupBox11->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown53))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown54))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown55))->EndInit();
+			this->groupBox12->ResumeLayout(false);
+			this->groupBox12->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown56))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown57))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown58))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -2118,6 +2423,7 @@ private: System::Void label6_Click(System::Object^  sender, System::EventArgs^  
 }
 private: System::Void label42_Click(System::Object^  sender, System::EventArgs^  e) {
 }
+
 };
 }
 
