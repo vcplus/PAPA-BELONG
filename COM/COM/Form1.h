@@ -206,13 +206,14 @@ private: System::Windows::Forms::NumericUpDown^  numericUpDown58;
 private: System::Windows::Forms::Label^  label55;
 private: System::Windows::Forms::Label^  label56;
 private: System::Windows::Forms::Label^  label57;
-private: System::Windows::Forms::Label^  label48;
-private: System::Windows::Forms::ListBox^  listBox2;
+
+
 private: System::Windows::Forms::Timer^  timer3;
 
 private: System::Windows::Forms::Label^  label61;
 private: System::Windows::Forms::Label^  label64;
 private: System::Windows::Forms::Label^  label62;
+private: System::Windows::Forms::Timer^  timer4;
 
 
 
@@ -367,6 +368,7 @@ private: System::Windows::Forms::Label^  label62;
 			this->label40 = (gcnew System::Windows::Forms::Label());
 			this->label41 = (gcnew System::Windows::Forms::Label());
 			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
+			this->label62 = (gcnew System::Windows::Forms::Label());
 			this->label64 = (gcnew System::Windows::Forms::Label());
 			this->label61 = (gcnew System::Windows::Forms::Label());
 			this->groupBox10 = (gcnew System::Windows::Forms::GroupBox());
@@ -390,10 +392,8 @@ private: System::Windows::Forms::Label^  label62;
 			this->label55 = (gcnew System::Windows::Forms::Label());
 			this->label56 = (gcnew System::Windows::Forms::Label());
 			this->label57 = (gcnew System::Windows::Forms::Label());
-			this->label48 = (gcnew System::Windows::Forms::Label());
-			this->listBox2 = (gcnew System::Windows::Forms::ListBox());
 			this->timer3 = (gcnew System::Windows::Forms::Timer(this->components));
-			this->label62 = (gcnew System::Windows::Forms::Label());
+			this->timer4 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			this->statusStrip1->SuspendLayout();
@@ -545,6 +545,7 @@ private: System::Windows::Forms::Label^  label62;
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(124, 26);
 			this->comboBox1->TabIndex = 1;
+			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::comboBox1_SelectedIndexChanged);
 			// 
 			// comboBox2
 			// 
@@ -554,6 +555,7 @@ private: System::Windows::Forms::Label^  label62;
 			this->comboBox2->Name = L"comboBox2";
 			this->comboBox2->Size = System::Drawing::Size(124, 26);
 			this->comboBox2->TabIndex = 2;
+			this->comboBox2->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::comboBox2_SelectedIndexChanged);
 			// 
 			// comboBox3
 			// 
@@ -939,7 +941,7 @@ private: System::Windows::Forms::Label^  label62;
 			this->listBox1->ItemHeight = 18;
 			this->listBox1->Location = System::Drawing::Point(39, 61);
 			this->listBox1->Name = L"listBox1";
-			this->listBox1->Size = System::Drawing::Size(829, 76);
+			this->listBox1->Size = System::Drawing::Size(1132, 76);
 			this->listBox1->TabIndex = 31;
 			// 
 			// groupBox3
@@ -1760,6 +1762,18 @@ private: System::Windows::Forms::Label^  label62;
 			this->groupBox9->TabStop = false;
 			this->groupBox9->Text = L"groupBox9";
 			// 
+			// label62
+			// 
+			this->label62->AutoSize = true;
+			this->label62->Font = (gcnew System::Drawing::Font(L"宋体", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label62->ForeColor = System::Drawing::Color::Red;
+			this->label62->Location = System::Drawing::Point(473, 36);
+			this->label62->Name = L"label62";
+			this->label62->Size = System::Drawing::Size(34, 24);
+			this->label62->TabIndex = 49;
+			this->label62->Text = L"●";
+			// 
 			// label64
 			// 
 			this->label64->AutoSize = true;
@@ -1988,41 +2002,13 @@ private: System::Windows::Forms::Label^  label62;
 			this->label57->TabIndex = 15;
 			this->label57->Text = L"经度";
 			// 
-			// label48
-			// 
-			this->label48->AutoSize = true;
-			this->label48->BackColor = System::Drawing::Color::Aqua;
-			this->label48->Location = System::Drawing::Point(813, 37);
-			this->label48->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
-			this->label48->Name = L"label48";
-			this->label48->Size = System::Drawing::Size(104, 19);
-			this->label48->TabIndex = 38;
-			this->label48->Text = L"数据接收区";
-			// 
-			// listBox2
-			// 
-			this->listBox2->FormattingEnabled = true;
-			this->listBox2->ItemHeight = 18;
-			this->listBox2->Location = System::Drawing::Point(894, 62);
-			this->listBox2->Name = L"listBox2";
-			this->listBox2->Size = System::Drawing::Size(360, 76);
-			this->listBox2->TabIndex = 37;
-			// 
 			// timer3
 			// 
 			this->timer3->Tick += gcnew System::EventHandler(this, &Form1::timer3_Tick);
 			// 
-			// label62
+			// timer4
 			// 
-			this->label62->AutoSize = true;
-			this->label62->Font = (gcnew System::Drawing::Font(L"宋体", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label62->ForeColor = System::Drawing::Color::Red;
-			this->label62->Location = System::Drawing::Point(473, 36);
-			this->label62->Name = L"label62";
-			this->label62->Size = System::Drawing::Size(34, 24);
-			this->label62->TabIndex = 49;
-			this->label62->Text = L"●";
+			this->timer4->Tick += gcnew System::EventHandler(this, &Form1::timer4_Tick);
 			// 
 			// Form1
 			// 
@@ -2034,8 +2020,6 @@ private: System::Windows::Forms::Label^  label62;
 			this->Controls->Add(this->groupBox11);
 			this->Controls->Add(this->groupBox10);
 			this->Controls->Add(this->groupBox9);
-			this->Controls->Add(this->label48);
-			this->Controls->Add(this->listBox2);
 			this->Controls->Add(this->groupBox8);
 			this->Controls->Add(this->groupBox7);
 			this->Controls->Add(this->groupBox6);
@@ -2229,7 +2213,13 @@ private: System::Void button1_Click(System::Object^  sender, System::EventArgs^ 
 			 com->PortName = this->comboBox1->Text->Trim();
 			 com->BaudRate = Int32::Parse(this->comboBox2->Text->Trim());
 			 com->Open();
+			 com->DataBits = Int32::Parse(this->comboBox4->Text->Trim());
+			 com->StopBits = System::IO::Ports::StopBits( int(int::Parse(this->comboBox5->Text->Trim())+0.5)   );
+			// com->StopBits = this->comboBox4->Text->Trim();
+			 
+			 
 			 timer3->Start();
+			 timer4->Start();
 			// ranHumi->Next();
 
 			// this->pictureBox1->BackColor=System::Drawing::Color::Red;
@@ -2349,6 +2339,8 @@ private: System::Void SendData_Click(System::Object^  sender, System::EventArgs^
 		 array<int>^ pid_flag = gcnew array<int>(3);
 		 PID_incremental ^pid1 = gcnew PID_incremental(0.18, 0.99, 0.005);
 private: System::Void timer2_Tick(System::Object^  sender, System::EventArgs^  e) {
+
+			 
 			 static int FAal = 3, FPM = 17, FTemp = 6, FHumi = 13;
 			 float pid_increment;
 			 int temp;
@@ -2463,7 +2455,7 @@ private: System::Void timer2_Tick(System::Object^  sender, System::EventArgs^  e
 				 int nPM = ranPM->Next(Int32::Parse(this->numericUpDown3->Text->Trim()), Int32::Parse(this->numericUpDown4->Text->Trim()));
 				 float nTemp = Int32::Parse(this->numericUpDown5->Text->Trim()) + (Int32::Parse(this->numericUpDown6->Text->Trim()) - Int32::Parse(this->numericUpDown5->Text->Trim())) * (ranTemp->NextDouble());
 				 int nHumi = ranHumi->Next(Int32::Parse(this->numericUpDown7->Text->Trim()), Int32::Parse(this->numericUpDown8->Text->Trim()));*/
-				 SendText = nAalcol1.ToString() + ";" + nPM1.ToString() + ";" + nTemp1.ToString() + ";" + nHumi1.ToString() + ";" + longitude1.ToString() + ";" + latitude1.ToString() + ";" + nAalcol2.ToString() + ";" + nPM2.ToString() + ";" + nTemp2.ToString() + ";" + nHumi2.ToString() + longitude2.ToString() + ";" + latitude2.ToString() + ";" + ";" + nAalcol3.ToString() + ";" + nPM3.ToString() + ";" + nTemp3.ToString(L" ") + ";" + nHumi3.ToString() + ";" + longitude3.ToString() + ";" + latitude3.ToString();
+				 SendText = nAalcol1.ToString() + ";" + nPM1.ToString() + ";" + nTemp1.ToString() + ";" + nHumi1.ToString() + ";" + longitude1.ToString() + ";" + latitude1.ToString() + ";" + nAalcol2.ToString() + ";" + nPM2.ToString() + ";" + nTemp2.ToString() + ";" + nHumi2.ToString() + ";" + longitude2.ToString() + ";" + latitude2.ToString()  + ";" + nAalcol3.ToString() + ";" + nPM3.ToString() + ";" + nTemp3.ToString() + ";" + nHumi3.ToString() + ";" + longitude3.ToString() + ";" + latitude3.ToString();
 				 String^ receive_data1 = "ds";
 				 if (com->IsOpen)
 				 {
@@ -2477,8 +2469,8 @@ private: System::Void timer2_Tick(System::Object^  sender, System::EventArgs^  e
 						 char ch = (char)com->ReadByte();
 
 						 receive_data1 += ch.ToString();
-						 if (com->BytesToRead == 0)
-							 this->listBox2->Items->Add(receive_data1);
+						// if (com->BytesToRead == 0)
+							 //this->listBox2->Items->Add(receive_data1);
 					 }
 					 // this->textBox1->Text = receive_data;
 					 //if (receive_data->Length > 0)
@@ -2543,12 +2535,12 @@ private: System::Void timer2_Tick(System::Object^  sender, System::EventArgs^  e
 private: System::Void timer3_Tick(System::Object^  sender, System::EventArgs^  e) {
 			 String^ receiveText = nullptr;
 			 char buffer[100] = {};
-			 if (time2flag == 1)
+		/*	 if (time2flag == 1)
 			 {
 				 timer2->Stop();
 				 time2flag = 0;
 				 this->label62->ForeColor = System::Drawing::Color::Red;
-			 }
+			 }*/
 				
 			 if (com->IsOpen)
 			 {
@@ -2564,7 +2556,7 @@ private: System::Void timer3_Tick(System::Object^  sender, System::EventArgs^  e
 						 String^buff = gcnew String(buffer);
 						 if (buff->Length > 4)
 						 {
-							 listBox2->Items->Add(buff);
+							// listBox2->Items->Add(buff);
 							 array<String^> ^split = gcnew array<String^>(4);
 							 //split = gcnew array<String^>{L"0", L"0", L"0", L"0"};
 							 split = buff->Split(59);
@@ -2623,6 +2615,34 @@ private: System::Void numericUpDown33_ValueChanged(System::Object^  sender, Syst
 private: System::Void numericUpDown27_ValueChanged(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void label62_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void timer4_Tick(System::Object^  sender, System::EventArgs^  e) {
+			 /*com->PortName = this->comboBox1->Text->Trim();
+			 com->BaudRate = Int32::Parse(this->comboBox2->Text->Trim());
+			 com->Open();*/
+			if (time2flag == 1)
+			 {
+				this->timer2->Stop();
+				 time2flag = 0;
+				 this->label62->ForeColor = System::Drawing::Color::Red;
+			 }
+}
+private: System::Void comboBox1_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+			 if (com->IsOpen)
+			 {
+				 com->Close();
+				 com->PortName = this->comboBox1->Text->Trim();
+				 com->Open();
+			 }
+}
+private: System::Void comboBox2_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+			 if (com->IsOpen)
+			 {
+				 com->Close();
+				 com->BaudRate = Int32::Parse(this->comboBox2->Text->Trim());
+				 com->Open();
+			 }
+
 }
 };
 }
