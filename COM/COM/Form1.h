@@ -98,36 +98,36 @@ namespace COM {
 	private: System::Windows::Forms::GroupBox^  groupBox3;
 	private: System::Windows::Forms::GroupBox^  groupBox4;
 	private: System::Windows::Forms::GroupBox^  groupBox5;
-	private: System::Windows::Forms::Label^  label8;
+
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown10;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown11;
 	private: System::Windows::Forms::Label^  label18;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown12;
-	private: System::Windows::Forms::Label^  label19;
+
 	private: System::Windows::Forms::Label^  label20;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown13;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown14;
 	private: System::Windows::Forms::Label^  label21;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown15;
 	private: System::Windows::Forms::Label^  label22;
-	private: System::Windows::Forms::Label^  label23;
-	private: System::Windows::Forms::Label^  label24;
+
+
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown16;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown17;
-	private: System::Windows::Forms::Label^  label25;
+
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown18;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown19;
 	private: System::Windows::Forms::Label^  label26;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown20;
-	private: System::Windows::Forms::Label^  label27;
+
 	private: System::Windows::Forms::Label^  label28;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown21;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown22;
 	private: System::Windows::Forms::Label^  label29;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown23;
 	private: System::Windows::Forms::Label^  label30;
-	private: System::Windows::Forms::Label^  label31;
-	private: System::Windows::Forms::Label^  label32;
+
+
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown24;
 	private: System::Windows::Forms::NumericUpDown^  numericUpDown25;
 private: System::Windows::Forms::Label^  label42;
@@ -142,16 +142,16 @@ private: System::Windows::Forms::GroupBox^  groupBox7;
 
 
 
-private: System::Windows::Forms::Label^  label36;
-private: System::Windows::Forms::Label^  label37;
-private: System::Windows::Forms::Label^  label38;
+
+
+
 private: System::Windows::Forms::GroupBox^  groupBox8;
 
 
 
-private: System::Windows::Forms::Label^  label39;
-private: System::Windows::Forms::Label^  label40;
-private: System::Windows::Forms::Label^  label41;
+
+
+
 private: System::Windows::Forms::Label^  label43;
 private: System::Windows::Forms::NumericUpDown^  numericUpDown38;
 private: System::Windows::Forms::NumericUpDown^  numericUpDown39;
@@ -214,6 +214,20 @@ private: System::Windows::Forms::Label^  label61;
 private: System::Windows::Forms::Label^  label64;
 private: System::Windows::Forms::Label^  label62;
 private: System::Windows::Forms::Timer^  timer4;
+private: System::Windows::Forms::Label^  label8;
+private: System::Windows::Forms::Label^  label19;
+private: System::Windows::Forms::Label^  label23;
+private: System::Windows::Forms::Label^  label24;
+private: System::Windows::Forms::Label^  label25;
+private: System::Windows::Forms::Label^  label27;
+private: System::Windows::Forms::Label^  label31;
+private: System::Windows::Forms::Label^  label32;
+private: System::Windows::Forms::Label^  label36;
+private: System::Windows::Forms::Label^  label37;
+private: System::Windows::Forms::Label^  label38;
+private: System::Windows::Forms::Label^  label39;
+private: System::Windows::Forms::Label^  label40;
+private: System::Windows::Forms::Label^  label41;
 
 
 
@@ -304,20 +318,16 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown45 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown36 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label44 = (gcnew System::Windows::Forms::Label());
-			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown10 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown11 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label18 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown12 = (gcnew System::Windows::Forms::NumericUpDown());
-			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->label20 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown13 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown14 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label21 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown15 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label22 = (gcnew System::Windows::Forms::Label());
-			this->label23 = (gcnew System::Windows::Forms::Label());
-			this->label24 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown16 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown17 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label45 = (gcnew System::Windows::Forms::Label());
@@ -330,20 +340,16 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown37 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label46 = (gcnew System::Windows::Forms::Label());
 			this->label47 = (gcnew System::Windows::Forms::Label());
-			this->label25 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown18 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown19 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label26 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown20 = (gcnew System::Windows::Forms::NumericUpDown());
-			this->label27 = (gcnew System::Windows::Forms::Label());
 			this->label28 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown21 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown22 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label29 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown23 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label30 = (gcnew System::Windows::Forms::Label());
-			this->label31 = (gcnew System::Windows::Forms::Label());
-			this->label32 = (gcnew System::Windows::Forms::Label());
 			this->numericUpDown24 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown25 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->groupBox6 = (gcnew System::Windows::Forms::GroupBox());
@@ -357,16 +363,10 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown31 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown30 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown29 = (gcnew System::Windows::Forms::NumericUpDown());
-			this->label36 = (gcnew System::Windows::Forms::Label());
-			this->label37 = (gcnew System::Windows::Forms::Label());
-			this->label38 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
 			this->numericUpDown34 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown33 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->numericUpDown32 = (gcnew System::Windows::Forms::NumericUpDown());
-			this->label39 = (gcnew System::Windows::Forms::Label());
-			this->label40 = (gcnew System::Windows::Forms::Label());
-			this->label41 = (gcnew System::Windows::Forms::Label());
 			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
 			this->label62 = (gcnew System::Windows::Forms::Label());
 			this->label64 = (gcnew System::Windows::Forms::Label());
@@ -394,6 +394,20 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label57 = (gcnew System::Windows::Forms::Label());
 			this->timer3 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->timer4 = (gcnew System::Windows::Forms::Timer(this->components));
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->label23 = (gcnew System::Windows::Forms::Label());
+			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->label27 = (gcnew System::Windows::Forms::Label());
+			this->label31 = (gcnew System::Windows::Forms::Label());
+			this->label32 = (gcnew System::Windows::Forms::Label());
+			this->label36 = (gcnew System::Windows::Forms::Label());
+			this->label37 = (gcnew System::Windows::Forms::Label());
+			this->label38 = (gcnew System::Windows::Forms::Label());
+			this->label39 = (gcnew System::Windows::Forms::Label());
+			this->label40 = (gcnew System::Windows::Forms::Label());
+			this->label41 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			this->statusStrip1->SuspendLayout();
@@ -523,7 +537,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label6->ForeColor = System::Drawing::Color::Red;
 			this->label6->Location = System::Drawing::Point(22, 211);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(29, 20);
+			this->label6->Size = System::Drawing::Size(24, 16);
 			this->label6->TabIndex = 9;
 			this->label6->Text = L"●";
 			this->label6->Click += gcnew System::EventHandler(this, &Form1::label6_Click);
@@ -534,7 +548,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->comboBox5->Location = System::Drawing::Point(64, 143);
 			this->comboBox5->Margin = System::Windows::Forms::Padding(4);
 			this->comboBox5->Name = L"comboBox5";
-			this->comboBox5->Size = System::Drawing::Size(124, 26);
+			this->comboBox5->Size = System::Drawing::Size(124, 22);
 			this->comboBox5->TabIndex = 5;
 			// 
 			// comboBox1
@@ -543,7 +557,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->comboBox1->Location = System::Drawing::Point(64, 18);
 			this->comboBox1->Margin = System::Windows::Forms::Padding(4);
 			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(124, 26);
+			this->comboBox1->Size = System::Drawing::Size(124, 22);
 			this->comboBox1->TabIndex = 1;
 			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::comboBox1_SelectedIndexChanged);
 			// 
@@ -553,7 +567,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->comboBox2->Location = System::Drawing::Point(64, 49);
 			this->comboBox2->Margin = System::Windows::Forms::Padding(4);
 			this->comboBox2->Name = L"comboBox2";
-			this->comboBox2->Size = System::Drawing::Size(124, 26);
+			this->comboBox2->Size = System::Drawing::Size(124, 22);
 			this->comboBox2->TabIndex = 2;
 			this->comboBox2->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::comboBox2_SelectedIndexChanged);
 			// 
@@ -563,7 +577,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->comboBox3->Location = System::Drawing::Point(64, 80);
 			this->comboBox3->Margin = System::Windows::Forms::Padding(4);
 			this->comboBox3->Name = L"comboBox3";
-			this->comboBox3->Size = System::Drawing::Size(124, 26);
+			this->comboBox3->Size = System::Drawing::Size(124, 22);
 			this->comboBox3->TabIndex = 3;
 			// 
 			// comboBox4
@@ -572,7 +586,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->comboBox4->Location = System::Drawing::Point(64, 112);
 			this->comboBox4->Margin = System::Windows::Forms::Padding(4);
 			this->comboBox4->Name = L"comboBox4";
-			this->comboBox4->Size = System::Drawing::Size(124, 26);
+			this->comboBox4->Size = System::Drawing::Size(124, 22);
 			this->comboBox4->TabIndex = 4;
 			// 
 			// label5
@@ -581,7 +595,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label5->Location = System::Drawing::Point(7, 140);
 			this->label5->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(66, 19);
+			this->label5->Size = System::Drawing::Size(52, 15);
 			this->label5->TabIndex = 4;
 			this->label5->Text = L"停止位";
 			// 
@@ -591,7 +605,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label4->Location = System::Drawing::Point(7, 112);
 			this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(66, 19);
+			this->label4->Size = System::Drawing::Size(52, 15);
 			this->label4->TabIndex = 3;
 			this->label4->Text = L"数据位";
 			// 
@@ -601,7 +615,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label3->Location = System::Drawing::Point(7, 80);
 			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(66, 19);
+			this->label3->Size = System::Drawing::Size(52, 15);
 			this->label3->TabIndex = 2;
 			this->label3->Text = L"校验位";
 			// 
@@ -611,7 +625,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label2->Location = System::Drawing::Point(7, 49);
 			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(66, 19);
+			this->label2->Size = System::Drawing::Size(52, 15);
 			this->label2->TabIndex = 1;
 			this->label2->Text = L"波特率";
 			// 
@@ -621,7 +635,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label1->Location = System::Drawing::Point(7, 21);
 			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(47, 19);
+			this->label1->Size = System::Drawing::Size(37, 15);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"串口";
 			// 
@@ -690,7 +704,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label7->Location = System::Drawing::Point(220, 37);
 			this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(104, 19);
+			this->label7->Size = System::Drawing::Size(82, 15);
 			this->label7->TabIndex = 4;
 			this->label7->Text = L"数据发送区";
 			// 
@@ -730,20 +744,20 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->statusStrip1->Location = System::Drawing::Point(828, 32);
 			this->statusStrip1->Name = L"statusStrip1";
 			this->statusStrip1->Padding = System::Windows::Forms::Padding(1, 0, 12, 0);
-			this->statusStrip1->Size = System::Drawing::Size(349, 25);
+			this->statusStrip1->Size = System::Drawing::Size(277, 22);
 			this->statusStrip1->TabIndex = 8;
 			this->statusStrip1->Text = L"statusStrip1";
 			// 
 			// toolStripStatusLabel1
 			// 
 			this->toolStripStatusLabel1->Name = L"toolStripStatusLabel1";
-			this->toolStripStatusLabel1->Size = System::Drawing::Size(167, 20);
+			this->toolStripStatusLabel1->Size = System::Drawing::Size(131, 17);
 			this->toolStripStatusLabel1->Text = L"toolStripStatusLabel1";
 			// 
 			// toolStripStatusLabel2
 			// 
 			this->toolStripStatusLabel2->Name = L"toolStripStatusLabel2";
-			this->toolStripStatusLabel2->Size = System::Drawing::Size(167, 20);
+			this->toolStripStatusLabel2->Size = System::Drawing::Size(131, 17);
 			this->toolStripStatusLabel2->Text = L"toolStripStatusLabel2";
 			// 
 			// timer1
@@ -755,36 +769,36 @@ private: System::Windows::Forms::Timer^  timer4;
 			// label9
 			// 
 			this->label9->AutoSize = true;
-			this->label9->Location = System::Drawing::Point(12, 98);
+			this->label9->Location = System::Drawing::Point(27, 28);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(104, 19);
+			this->label9->Size = System::Drawing::Size(82, 15);
 			this->label9->TabIndex = 12;
 			this->label9->Text = L"温度（℃）";
 			// 
 			// label10
 			// 
 			this->label10->AutoSize = true;
-			this->label10->Location = System::Drawing::Point(21, 129);
+			this->label10->Location = System::Drawing::Point(28, 67);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(95, 19);
+			this->label10->Size = System::Drawing::Size(75, 15);
 			this->label10->TabIndex = 13;
 			this->label10->Text = L"湿度（%）";
 			// 
 			// label11
 			// 
 			this->label11->AutoSize = true;
-			this->label11->Location = System::Drawing::Point(21, 30);
+			this->label11->Location = System::Drawing::Point(28, 134);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(85, 19);
+			this->label11->Size = System::Drawing::Size(67, 15);
 			this->label11->TabIndex = 14;
 			this->label11->Text = L"有毒气体";
 			// 
 			// label12
 			// 
 			this->label12->AutoSize = true;
-			this->label12->Location = System::Drawing::Point(21, 65);
+			this->label12->Location = System::Drawing::Point(28, 101);
 			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(66, 19);
+			this->label12->Size = System::Drawing::Size(52, 15);
 			this->label12->TabIndex = 15;
 			this->label12->Text = L"震荡度";
 			this->label12->Click += gcnew System::EventHandler(this, &Form1::label12_Click);
@@ -794,7 +808,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown1->Location = System::Drawing::Point(119, 22);
 			this->numericUpDown1->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown1->Name = L"numericUpDown1";
-			this->numericUpDown1->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown1->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown1->TabIndex = 16;
 			// 
 			// numericUpDown2
@@ -802,7 +816,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown2->Location = System::Drawing::Point(208, 22);
 			this->numericUpDown2->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown2->Name = L"numericUpDown2";
-			this->numericUpDown2->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown2->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown2->TabIndex = 17;
 			// 
 			// numericUpDown3
@@ -810,7 +824,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown3->Location = System::Drawing::Point(118, 62);
 			this->numericUpDown3->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown3->Name = L"numericUpDown3";
-			this->numericUpDown3->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown3->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown3->TabIndex = 18;
 			// 
 			// numericUpDown4
@@ -818,35 +832,35 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown4->Location = System::Drawing::Point(208, 62);
 			this->numericUpDown4->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown4->Name = L"numericUpDown4";
-			this->numericUpDown4->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown4->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown4->TabIndex = 19;
 			// 
 			// numericUpDown5
 			// 
 			this->numericUpDown5->Location = System::Drawing::Point(118, 96);
 			this->numericUpDown5->Name = L"numericUpDown5";
-			this->numericUpDown5->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown5->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown5->TabIndex = 20;
 			// 
 			// numericUpDown6
 			// 
 			this->numericUpDown6->Location = System::Drawing::Point(208, 94);
 			this->numericUpDown6->Name = L"numericUpDown6";
-			this->numericUpDown6->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown6->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown6->TabIndex = 21;
 			// 
 			// numericUpDown7
 			// 
 			this->numericUpDown7->Location = System::Drawing::Point(116, 130);
 			this->numericUpDown7->Name = L"numericUpDown7";
-			this->numericUpDown7->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown7->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown7->TabIndex = 22;
 			// 
 			// numericUpDown8
 			// 
 			this->numericUpDown8->Location = System::Drawing::Point(209, 130);
 			this->numericUpDown8->Name = L"numericUpDown8";
-			this->numericUpDown8->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown8->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown8->TabIndex = 23;
 			// 
 			// label13
@@ -854,7 +868,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label13->AutoSize = true;
 			this->label13->Location = System::Drawing::Point(181, 33);
 			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(28, 19);
+			this->label13->Size = System::Drawing::Size(22, 15);
 			this->label13->TabIndex = 24;
 			this->label13->Text = L"～";
 			// 
@@ -863,7 +877,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label14->AutoSize = true;
 			this->label14->Location = System::Drawing::Point(183, 73);
 			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(28, 19);
+			this->label14->Size = System::Drawing::Size(22, 15);
 			this->label14->TabIndex = 25;
 			this->label14->Text = L"～";
 			// 
@@ -872,7 +886,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label15->AutoSize = true;
 			this->label15->Location = System::Drawing::Point(181, 104);
 			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(28, 19);
+			this->label15->Size = System::Drawing::Size(22, 15);
 			this->label15->TabIndex = 26;
 			this->label15->Text = L"～";
 			// 
@@ -881,7 +895,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label16->AutoSize = true;
 			this->label16->Location = System::Drawing::Point(183, 137);
 			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(28, 19);
+			this->label16->Size = System::Drawing::Size(22, 15);
 			this->label16->TabIndex = 27;
 			this->label16->Text = L"～";
 			// 
@@ -895,20 +909,20 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Padding = System::Windows::Forms::Padding(4, 3, 0, 3);
-			this->menuStrip1->Size = System::Drawing::Size(1491, 30);
+			this->menuStrip1->Size = System::Drawing::Size(1491, 27);
 			this->menuStrip1->TabIndex = 28;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
 			// shebeiToolStripMenuItem
 			// 
 			this->shebeiToolStripMenuItem->Name = L"shebeiToolStripMenuItem";
-			this->shebeiToolStripMenuItem->Size = System::Drawing::Size(81, 24);
+			this->shebeiToolStripMenuItem->Size = System::Drawing::Size(68, 21);
 			this->shebeiToolStripMenuItem->Text = L"仿真设备";
 			// 
 			// tongxinToolStripMenuItem
 			// 
 			this->tongxinToolStripMenuItem->Name = L"tongxinToolStripMenuItem";
-			this->tongxinToolStripMenuItem->Size = System::Drawing::Size(51, 24);
+			this->tongxinToolStripMenuItem->Size = System::Drawing::Size(44, 21);
 			this->tongxinToolStripMenuItem->Text = L"帮助";
 			// 
 			// timer2
@@ -922,7 +936,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown9->Location = System::Drawing::Point(752, 34);
 			this->numericUpDown9->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 5000, 0, 0, 0 });
 			this->numericUpDown9->Name = L"numericUpDown9";
-			this->numericUpDown9->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown9->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown9->TabIndex = 29;
 			// 
 			// label17
@@ -931,17 +945,17 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label17->Font = (gcnew System::Drawing::Font(L"宋体", 12));
 			this->label17->Location = System::Drawing::Point(537, 36);
 			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(199, 20);
+			this->label17->Size = System::Drawing::Size(160, 16);
 			this->label17->TabIndex = 30;
 			this->label17->Text = L"发送时间间隔（ms）:";
 			// 
 			// listBox1
 			// 
 			this->listBox1->FormattingEnabled = true;
-			this->listBox1->ItemHeight = 18;
+			this->listBox1->ItemHeight = 14;
 			this->listBox1->Location = System::Drawing::Point(39, 61);
 			this->listBox1->Name = L"listBox1";
-			this->listBox1->Size = System::Drawing::Size(1132, 76);
+			this->listBox1->Size = System::Drawing::Size(1132, 74);
 			this->listBox1->TabIndex = 31;
 			// 
 			// groupBox3
@@ -982,9 +996,9 @@ private: System::Windows::Forms::Timer^  timer4;
 			// label58
 			// 
 			this->label58->AutoSize = true;
-			this->label58->Location = System::Drawing::Point(40, 177);
+			this->label58->Location = System::Drawing::Point(15, 180);
 			this->label58->Name = L"label58";
-			this->label58->Size = System::Drawing::Size(87, 19);
+			this->label58->Size = System::Drawing::Size(69, 15);
 			this->label58->TabIndex = 35;
 			this->label58->Text = L"PID调控:";
 			// 
@@ -994,7 +1008,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown38->Location = System::Drawing::Point(278, 22);
 			this->numericUpDown38->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown38->Name = L"numericUpDown38";
-			this->numericUpDown38->Size = System::Drawing::Size(84, 28);
+			this->numericUpDown38->Size = System::Drawing::Size(84, 24);
 			this->numericUpDown38->TabIndex = 31;
 			// 
 			// numericUpDown39
@@ -1003,7 +1017,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown39->Location = System::Drawing::Point(278, 62);
 			this->numericUpDown39->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown39->Name = L"numericUpDown39";
-			this->numericUpDown39->Size = System::Drawing::Size(84, 28);
+			this->numericUpDown39->Size = System::Drawing::Size(84, 24);
 			this->numericUpDown39->TabIndex = 32;
 			// 
 			// numericUpDown40
@@ -1011,7 +1025,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown40->DecimalPlaces = 3;
 			this->numericUpDown40->Location = System::Drawing::Point(278, 98);
 			this->numericUpDown40->Name = L"numericUpDown40";
-			this->numericUpDown40->Size = System::Drawing::Size(83, 28);
+			this->numericUpDown40->Size = System::Drawing::Size(83, 24);
 			this->numericUpDown40->TabIndex = 34;
 			// 
 			// numericUpDown41
@@ -1019,14 +1033,14 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown41->DecimalPlaces = 3;
 			this->numericUpDown41->Location = System::Drawing::Point(278, 129);
 			this->numericUpDown41->Name = L"numericUpDown41";
-			this->numericUpDown41->Size = System::Drawing::Size(84, 28);
+			this->numericUpDown41->Size = System::Drawing::Size(84, 24);
 			this->numericUpDown41->TabIndex = 33;
 			// 
 			// numericUpDown35
 			// 
 			this->numericUpDown35->Location = System::Drawing::Point(314, 171);
 			this->numericUpDown35->Name = L"numericUpDown35";
-			this->numericUpDown35->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown35->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown35->TabIndex = 30;
 			// 
 			// label43
@@ -1037,7 +1051,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label43->ForeColor = System::Drawing::Color::Red;
 			this->label43->Location = System::Drawing::Point(133, 174);
 			this->label43->Name = L"label43";
-			this->label43->Size = System::Drawing::Size(29, 20);
+			this->label43->Size = System::Drawing::Size(24, 16);
 			this->label43->TabIndex = 29;
 			this->label43->Text = L"●";
 			// 
@@ -1046,34 +1060,34 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label42->AutoSize = true;
 			this->label42->Location = System::Drawing::Point(191, 175);
 			this->label42->Name = L"label42";
-			this->label42->Size = System::Drawing::Size(134, 19);
+			this->label42->Size = System::Drawing::Size(106, 15);
 			this->label42->TabIndex = 28;
 			this->label42->Text = L"扰动（0.1）：";
 			this->label42->Click += gcnew System::EventHandler(this, &Form1::label42_Click);
 			// 
 			// groupBox4
 			// 
+			this->groupBox4->Controls->Add(this->label8);
+			this->groupBox4->Controls->Add(this->label19);
 			this->groupBox4->Controls->Add(this->label59);
+			this->groupBox4->Controls->Add(this->label23);
 			this->groupBox4->Controls->Add(this->numericUpDown42);
+			this->groupBox4->Controls->Add(this->label24);
 			this->groupBox4->Controls->Add(this->numericUpDown43);
 			this->groupBox4->Controls->Add(this->numericUpDown44);
 			this->groupBox4->Controls->Add(this->numericUpDown45);
 			this->groupBox4->Controls->Add(this->numericUpDown36);
 			this->groupBox4->Controls->Add(this->label44);
-			this->groupBox4->Controls->Add(this->label8);
 			this->groupBox4->Controls->Add(this->numericUpDown10);
 			this->groupBox4->Controls->Add(this->numericUpDown11);
 			this->groupBox4->Controls->Add(this->label18);
 			this->groupBox4->Controls->Add(this->numericUpDown12);
-			this->groupBox4->Controls->Add(this->label19);
 			this->groupBox4->Controls->Add(this->label20);
 			this->groupBox4->Controls->Add(this->numericUpDown13);
 			this->groupBox4->Controls->Add(this->numericUpDown14);
 			this->groupBox4->Controls->Add(this->label21);
 			this->groupBox4->Controls->Add(this->numericUpDown15);
 			this->groupBox4->Controls->Add(this->label22);
-			this->groupBox4->Controls->Add(this->label23);
-			this->groupBox4->Controls->Add(this->label24);
 			this->groupBox4->Controls->Add(this->numericUpDown16);
 			this->groupBox4->Controls->Add(this->numericUpDown17);
 			this->groupBox4->Controls->Add(this->label45);
@@ -1091,7 +1105,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label59->AutoSize = true;
 			this->label59->Location = System::Drawing::Point(36, 172);
 			this->label59->Name = L"label59";
-			this->label59->Size = System::Drawing::Size(87, 19);
+			this->label59->Size = System::Drawing::Size(69, 15);
 			this->label59->TabIndex = 51;
 			this->label59->Text = L"PID调控:";
 			// 
@@ -1101,7 +1115,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown42->Location = System::Drawing::Point(273, 22);
 			this->numericUpDown42->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown42->Name = L"numericUpDown42";
-			this->numericUpDown42->Size = System::Drawing::Size(82, 28);
+			this->numericUpDown42->Size = System::Drawing::Size(82, 24);
 			this->numericUpDown42->TabIndex = 47;
 			// 
 			// numericUpDown43
@@ -1110,7 +1124,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown43->Location = System::Drawing::Point(273, 60);
 			this->numericUpDown43->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown43->Name = L"numericUpDown43";
-			this->numericUpDown43->Size = System::Drawing::Size(82, 28);
+			this->numericUpDown43->Size = System::Drawing::Size(82, 24);
 			this->numericUpDown43->TabIndex = 48;
 			// 
 			// numericUpDown44
@@ -1118,7 +1132,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown44->DecimalPlaces = 3;
 			this->numericUpDown44->Location = System::Drawing::Point(273, 91);
 			this->numericUpDown44->Name = L"numericUpDown44";
-			this->numericUpDown44->Size = System::Drawing::Size(82, 28);
+			this->numericUpDown44->Size = System::Drawing::Size(82, 24);
 			this->numericUpDown44->TabIndex = 50;
 			// 
 			// numericUpDown45
@@ -1126,14 +1140,14 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown45->DecimalPlaces = 3;
 			this->numericUpDown45->Location = System::Drawing::Point(271, 126);
 			this->numericUpDown45->Name = L"numericUpDown45";
-			this->numericUpDown45->Size = System::Drawing::Size(83, 28);
+			this->numericUpDown45->Size = System::Drawing::Size(83, 24);
 			this->numericUpDown45->TabIndex = 49;
 			// 
 			// numericUpDown36
 			// 
 			this->numericUpDown36->Location = System::Drawing::Point(302, 168);
 			this->numericUpDown36->Name = L"numericUpDown36";
-			this->numericUpDown36->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown36->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown36->TabIndex = 46;
 			// 
 			// label44
@@ -1144,25 +1158,16 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label44->ForeColor = System::Drawing::Color::Red;
 			this->label44->Location = System::Drawing::Point(125, 170);
 			this->label44->Name = L"label44";
-			this->label44->Size = System::Drawing::Size(29, 20);
+			this->label44->Size = System::Drawing::Size(24, 16);
 			this->label44->TabIndex = 45;
 			this->label44->Text = L"●";
-			// 
-			// label8
-			// 
-			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(14, 30);
-			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(85, 19);
-			this->label8->TabIndex = 30;
-			this->label8->Text = L"有毒气体";
 			// 
 			// numericUpDown10
 			// 
 			this->numericUpDown10->Location = System::Drawing::Point(111, 19);
 			this->numericUpDown10->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown10->Name = L"numericUpDown10";
-			this->numericUpDown10->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown10->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown10->TabIndex = 32;
 			// 
 			// numericUpDown11
@@ -1170,7 +1175,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown11->Location = System::Drawing::Point(199, 19);
 			this->numericUpDown11->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown11->Name = L"numericUpDown11";
-			this->numericUpDown11->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown11->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown11->TabIndex = 33;
 			// 
 			// label18
@@ -1178,7 +1183,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label18->AutoSize = true;
 			this->label18->Location = System::Drawing::Point(173, 30);
 			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(28, 19);
+			this->label18->Size = System::Drawing::Size(22, 15);
 			this->label18->TabIndex = 40;
 			this->label18->Text = L"～";
 			// 
@@ -1187,24 +1192,15 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown12->Location = System::Drawing::Point(109, 58);
 			this->numericUpDown12->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown12->Name = L"numericUpDown12";
-			this->numericUpDown12->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown12->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown12->TabIndex = 34;
-			// 
-			// label19
-			// 
-			this->label19->AutoSize = true;
-			this->label19->Location = System::Drawing::Point(12, 132);
-			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(95, 19);
-			this->label19->TabIndex = 29;
-			this->label19->Text = L"湿度（%）";
 			// 
 			// label20
 			// 
 			this->label20->AutoSize = true;
 			this->label20->Location = System::Drawing::Point(174, 133);
 			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(28, 19);
+			this->label20->Size = System::Drawing::Size(22, 15);
 			this->label20->TabIndex = 43;
 			this->label20->Text = L"～";
 			// 
@@ -1213,14 +1209,14 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown13->Location = System::Drawing::Point(199, 58);
 			this->numericUpDown13->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown13->Name = L"numericUpDown13";
-			this->numericUpDown13->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown13->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown13->TabIndex = 35;
 			// 
 			// numericUpDown14
 			// 
 			this->numericUpDown14->Location = System::Drawing::Point(201, 126);
 			this->numericUpDown14->Name = L"numericUpDown14";
-			this->numericUpDown14->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown14->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown14->TabIndex = 39;
 			// 
 			// label21
@@ -1228,7 +1224,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label21->AutoSize = true;
 			this->label21->Location = System::Drawing::Point(173, 101);
 			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(28, 19);
+			this->label21->Size = System::Drawing::Size(22, 15);
 			this->label21->TabIndex = 42;
 			this->label21->Text = L"～";
 			// 
@@ -1236,7 +1232,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			// 
 			this->numericUpDown15->Location = System::Drawing::Point(108, 126);
 			this->numericUpDown15->Name = L"numericUpDown15";
-			this->numericUpDown15->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown15->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown15->TabIndex = 38;
 			// 
 			// label22
@@ -1244,40 +1240,22 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label22->AutoSize = true;
 			this->label22->Location = System::Drawing::Point(174, 69);
 			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(28, 19);
+			this->label22->Size = System::Drawing::Size(22, 15);
 			this->label22->TabIndex = 41;
 			this->label22->Text = L"～";
-			// 
-			// label23
-			// 
-			this->label23->AutoSize = true;
-			this->label23->Location = System::Drawing::Point(12, 61);
-			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(66, 19);
-			this->label23->TabIndex = 31;
-			this->label23->Text = L"震荡度";
-			// 
-			// label24
-			// 
-			this->label24->AutoSize = true;
-			this->label24->Location = System::Drawing::Point(3, 94);
-			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(104, 19);
-			this->label24->TabIndex = 28;
-			this->label24->Text = L"温度（℃）";
 			// 
 			// numericUpDown16
 			// 
 			this->numericUpDown16->Location = System::Drawing::Point(199, 91);
 			this->numericUpDown16->Name = L"numericUpDown16";
-			this->numericUpDown16->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown16->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown16->TabIndex = 37;
 			// 
 			// numericUpDown17
 			// 
 			this->numericUpDown17->Location = System::Drawing::Point(109, 93);
 			this->numericUpDown17->Name = L"numericUpDown17";
-			this->numericUpDown17->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown17->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown17->TabIndex = 36;
 			// 
 			// label45
@@ -1285,34 +1263,34 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label45->AutoSize = true;
 			this->label45->Location = System::Drawing::Point(182, 172);
 			this->label45->Name = L"label45";
-			this->label45->Size = System::Drawing::Size(134, 19);
+			this->label45->Size = System::Drawing::Size(106, 15);
 			this->label45->TabIndex = 44;
 			this->label45->Text = L"扰动（0.1）：";
 			// 
 			// groupBox5
 			// 
+			this->groupBox5->Controls->Add(this->label25);
+			this->groupBox5->Controls->Add(this->label27);
 			this->groupBox5->Controls->Add(this->label60);
+			this->groupBox5->Controls->Add(this->label31);
 			this->groupBox5->Controls->Add(this->numericUpDown46);
+			this->groupBox5->Controls->Add(this->label32);
 			this->groupBox5->Controls->Add(this->numericUpDown47);
 			this->groupBox5->Controls->Add(this->numericUpDown48);
 			this->groupBox5->Controls->Add(this->numericUpDown49);
 			this->groupBox5->Controls->Add(this->numericUpDown37);
 			this->groupBox5->Controls->Add(this->label46);
 			this->groupBox5->Controls->Add(this->label47);
-			this->groupBox5->Controls->Add(this->label25);
 			this->groupBox5->Controls->Add(this->numericUpDown18);
 			this->groupBox5->Controls->Add(this->numericUpDown19);
 			this->groupBox5->Controls->Add(this->label26);
 			this->groupBox5->Controls->Add(this->numericUpDown20);
-			this->groupBox5->Controls->Add(this->label27);
 			this->groupBox5->Controls->Add(this->label28);
 			this->groupBox5->Controls->Add(this->numericUpDown21);
 			this->groupBox5->Controls->Add(this->numericUpDown22);
 			this->groupBox5->Controls->Add(this->label29);
 			this->groupBox5->Controls->Add(this->numericUpDown23);
 			this->groupBox5->Controls->Add(this->label30);
-			this->groupBox5->Controls->Add(this->label31);
-			this->groupBox5->Controls->Add(this->label32);
 			this->groupBox5->Controls->Add(this->numericUpDown24);
 			this->groupBox5->Controls->Add(this->numericUpDown25);
 			this->groupBox5->Location = System::Drawing::Point(878, 148);
@@ -1329,7 +1307,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label60->AutoSize = true;
 			this->label60->Location = System::Drawing::Point(39, 168);
 			this->label60->Name = L"label60";
-			this->label60->Size = System::Drawing::Size(87, 19);
+			this->label60->Size = System::Drawing::Size(69, 15);
 			this->label60->TabIndex = 52;
 			this->label60->Text = L"PID调控:";
 			// 
@@ -1339,7 +1317,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown46->Location = System::Drawing::Point(273, 19);
 			this->numericUpDown46->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown46->Name = L"numericUpDown46";
-			this->numericUpDown46->Size = System::Drawing::Size(80, 28);
+			this->numericUpDown46->Size = System::Drawing::Size(80, 24);
 			this->numericUpDown46->TabIndex = 47;
 			// 
 			// numericUpDown47
@@ -1348,7 +1326,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown47->Location = System::Drawing::Point(273, 58);
 			this->numericUpDown47->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown47->Name = L"numericUpDown47";
-			this->numericUpDown47->Size = System::Drawing::Size(80, 28);
+			this->numericUpDown47->Size = System::Drawing::Size(80, 24);
 			this->numericUpDown47->TabIndex = 48;
 			// 
 			// numericUpDown48
@@ -1356,7 +1334,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown48->DecimalPlaces = 3;
 			this->numericUpDown48->Location = System::Drawing::Point(274, 126);
 			this->numericUpDown48->Name = L"numericUpDown48";
-			this->numericUpDown48->Size = System::Drawing::Size(79, 28);
+			this->numericUpDown48->Size = System::Drawing::Size(79, 24);
 			this->numericUpDown48->TabIndex = 50;
 			// 
 			// numericUpDown49
@@ -1364,14 +1342,14 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown49->DecimalPlaces = 3;
 			this->numericUpDown49->Location = System::Drawing::Point(273, 91);
 			this->numericUpDown49->Name = L"numericUpDown49";
-			this->numericUpDown49->Size = System::Drawing::Size(80, 28);
+			this->numericUpDown49->Size = System::Drawing::Size(80, 24);
 			this->numericUpDown49->TabIndex = 49;
 			// 
 			// numericUpDown37
 			// 
 			this->numericUpDown37->Location = System::Drawing::Point(283, 166);
 			this->numericUpDown37->Name = L"numericUpDown37";
-			this->numericUpDown37->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown37->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown37->TabIndex = 46;
 			// 
 			// label46
@@ -1382,7 +1360,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label46->ForeColor = System::Drawing::Color::Red;
 			this->label46->Location = System::Drawing::Point(126, 170);
 			this->label46->Name = L"label46";
-			this->label46->Size = System::Drawing::Size(29, 20);
+			this->label46->Size = System::Drawing::Size(24, 16);
 			this->label46->TabIndex = 45;
 			this->label46->Text = L"●";
 			// 
@@ -1391,25 +1369,16 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label47->AutoSize = true;
 			this->label47->Location = System::Drawing::Point(177, 170);
 			this->label47->Name = L"label47";
-			this->label47->Size = System::Drawing::Size(134, 19);
+			this->label47->Size = System::Drawing::Size(106, 15);
 			this->label47->TabIndex = 44;
 			this->label47->Text = L"扰动（0.1）：";
-			// 
-			// label25
-			// 
-			this->label25->AutoSize = true;
-			this->label25->Location = System::Drawing::Point(12, 30);
-			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(85, 19);
-			this->label25->TabIndex = 30;
-			this->label25->Text = L"有毒气体";
 			// 
 			// numericUpDown18
 			// 
 			this->numericUpDown18->Location = System::Drawing::Point(111, 19);
 			this->numericUpDown18->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown18->Name = L"numericUpDown18";
-			this->numericUpDown18->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown18->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown18->TabIndex = 32;
 			// 
 			// numericUpDown19
@@ -1417,7 +1386,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown19->Location = System::Drawing::Point(199, 19);
 			this->numericUpDown19->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown19->Name = L"numericUpDown19";
-			this->numericUpDown19->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown19->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown19->TabIndex = 33;
 			// 
 			// label26
@@ -1425,7 +1394,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label26->AutoSize = true;
 			this->label26->Location = System::Drawing::Point(173, 30);
 			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(28, 19);
+			this->label26->Size = System::Drawing::Size(22, 15);
 			this->label26->TabIndex = 40;
 			this->label26->Text = L"～";
 			// 
@@ -1434,24 +1403,15 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown20->Location = System::Drawing::Point(109, 58);
 			this->numericUpDown20->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown20->Name = L"numericUpDown20";
-			this->numericUpDown20->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown20->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown20->TabIndex = 34;
-			// 
-			// label27
-			// 
-			this->label27->AutoSize = true;
-			this->label27->Location = System::Drawing::Point(12, 129);
-			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(95, 19);
-			this->label27->TabIndex = 29;
-			this->label27->Text = L"湿度（%）";
 			// 
 			// label28
 			// 
 			this->label28->AutoSize = true;
 			this->label28->Location = System::Drawing::Point(174, 133);
 			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(28, 19);
+			this->label28->Size = System::Drawing::Size(22, 15);
 			this->label28->TabIndex = 43;
 			this->label28->Text = L"～";
 			// 
@@ -1460,14 +1420,14 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown21->Location = System::Drawing::Point(199, 58);
 			this->numericUpDown21->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1000, 0, 0, 0 });
 			this->numericUpDown21->Name = L"numericUpDown21";
-			this->numericUpDown21->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown21->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown21->TabIndex = 35;
 			// 
 			// numericUpDown22
 			// 
 			this->numericUpDown22->Location = System::Drawing::Point(201, 126);
 			this->numericUpDown22->Name = L"numericUpDown22";
-			this->numericUpDown22->Size = System::Drawing::Size(53, 28);
+			this->numericUpDown22->Size = System::Drawing::Size(53, 24);
 			this->numericUpDown22->TabIndex = 39;
 			// 
 			// label29
@@ -1475,7 +1435,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label29->AutoSize = true;
 			this->label29->Location = System::Drawing::Point(173, 101);
 			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(28, 19);
+			this->label29->Size = System::Drawing::Size(22, 15);
 			this->label29->TabIndex = 42;
 			this->label29->Text = L"～";
 			// 
@@ -1483,7 +1443,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			// 
 			this->numericUpDown23->Location = System::Drawing::Point(108, 126);
 			this->numericUpDown23->Name = L"numericUpDown23";
-			this->numericUpDown23->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown23->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown23->TabIndex = 38;
 			// 
 			// label30
@@ -1491,40 +1451,22 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label30->AutoSize = true;
 			this->label30->Location = System::Drawing::Point(174, 69);
 			this->label30->Name = L"label30";
-			this->label30->Size = System::Drawing::Size(28, 19);
+			this->label30->Size = System::Drawing::Size(22, 15);
 			this->label30->TabIndex = 41;
 			this->label30->Text = L"～";
-			// 
-			// label31
-			// 
-			this->label31->AutoSize = true;
-			this->label31->Location = System::Drawing::Point(12, 61);
-			this->label31->Name = L"label31";
-			this->label31->Size = System::Drawing::Size(66, 19);
-			this->label31->TabIndex = 31;
-			this->label31->Text = L"震荡度";
-			// 
-			// label32
-			// 
-			this->label32->AutoSize = true;
-			this->label32->Location = System::Drawing::Point(4, 94);
-			this->label32->Name = L"label32";
-			this->label32->Size = System::Drawing::Size(104, 19);
-			this->label32->TabIndex = 28;
-			this->label32->Text = L"温度（℃）";
 			// 
 			// numericUpDown24
 			// 
 			this->numericUpDown24->Location = System::Drawing::Point(199, 91);
 			this->numericUpDown24->Name = L"numericUpDown24";
-			this->numericUpDown24->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown24->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown24->TabIndex = 37;
 			// 
 			// numericUpDown25
 			// 
 			this->numericUpDown25->Location = System::Drawing::Point(109, 93);
 			this->numericUpDown25->Name = L"numericUpDown25";
-			this->numericUpDown25->Size = System::Drawing::Size(54, 28);
+			this->numericUpDown25->Size = System::Drawing::Size(54, 24);
 			this->numericUpDown25->TabIndex = 36;
 			// 
 			// groupBox6
@@ -1548,7 +1490,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown28->Enabled = false;
 			this->numericUpDown28->Location = System::Drawing::Point(256, 60);
 			this->numericUpDown28->Name = L"numericUpDown28";
-			this->numericUpDown28->Size = System::Drawing::Size(82, 28);
+			this->numericUpDown28->Size = System::Drawing::Size(82, 24);
 			this->numericUpDown28->TabIndex = 30;
 			this->numericUpDown28->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown28_ValueChanged);
 			// 
@@ -1558,7 +1500,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown27->Enabled = false;
 			this->numericUpDown27->Location = System::Drawing::Point(148, 60);
 			this->numericUpDown27->Name = L"numericUpDown27";
-			this->numericUpDown27->Size = System::Drawing::Size(84, 28);
+			this->numericUpDown27->Size = System::Drawing::Size(84, 24);
 			this->numericUpDown27->TabIndex = 29;
 			this->numericUpDown27->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown27_ValueChanged);
 			// 
@@ -1568,16 +1510,16 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown26->Enabled = false;
 			this->numericUpDown26->Location = System::Drawing::Point(35, 60);
 			this->numericUpDown26->Name = L"numericUpDown26";
-			this->numericUpDown26->Size = System::Drawing::Size(85, 28);
+			this->numericUpDown26->Size = System::Drawing::Size(85, 24);
 			this->numericUpDown26->TabIndex = 28;
 			this->numericUpDown26->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown26_ValueChanged);
 			// 
 			// label35
 			// 
 			this->label35->AutoSize = true;
-			this->label35->Location = System::Drawing::Point(255, 32);
+			this->label35->Location = System::Drawing::Point(39, 32);
 			this->label35->Name = L"label35";
-			this->label35->Size = System::Drawing::Size(104, 19);
+			this->label35->Size = System::Drawing::Size(82, 15);
 			this->label35->TabIndex = 17;
 			this->label35->Text = L"温度（℃）";
 			// 
@@ -1586,27 +1528,27 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label34->AutoSize = true;
 			this->label34->Location = System::Drawing::Point(155, 32);
 			this->label34->Name = L"label34";
-			this->label34->Size = System::Drawing::Size(47, 19);
+			this->label34->Size = System::Drawing::Size(37, 15);
 			this->label34->TabIndex = 16;
 			this->label34->Text = L"湿度";
 			// 
 			// label33
 			// 
 			this->label33->AutoSize = true;
-			this->label33->Location = System::Drawing::Point(39, 32);
+			this->label33->Location = System::Drawing::Point(260, 32);
 			this->label33->Name = L"label33";
-			this->label33->Size = System::Drawing::Size(85, 19);
+			this->label33->Size = System::Drawing::Size(67, 15);
 			this->label33->TabIndex = 15;
 			this->label33->Text = L"有毒气体";
 			// 
 			// groupBox7
 			// 
-			this->groupBox7->Controls->Add(this->numericUpDown31);
-			this->groupBox7->Controls->Add(this->numericUpDown30);
-			this->groupBox7->Controls->Add(this->numericUpDown29);
 			this->groupBox7->Controls->Add(this->label36);
+			this->groupBox7->Controls->Add(this->numericUpDown31);
 			this->groupBox7->Controls->Add(this->label37);
 			this->groupBox7->Controls->Add(this->label38);
+			this->groupBox7->Controls->Add(this->numericUpDown30);
+			this->groupBox7->Controls->Add(this->numericUpDown29);
 			this->groupBox7->Location = System::Drawing::Point(460, 462);
 			this->groupBox7->Name = L"groupBox7";
 			this->groupBox7->Size = System::Drawing::Size(372, 97);
@@ -1620,7 +1562,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown31->Enabled = false;
 			this->numericUpDown31->Location = System::Drawing::Point(245, 60);
 			this->numericUpDown31->Name = L"numericUpDown31";
-			this->numericUpDown31->Size = System::Drawing::Size(85, 28);
+			this->numericUpDown31->Size = System::Drawing::Size(85, 24);
 			this->numericUpDown31->TabIndex = 31;
 			this->numericUpDown31->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown31_ValueChanged);
 			// 
@@ -1630,7 +1572,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown30->Enabled = false;
 			this->numericUpDown30->Location = System::Drawing::Point(138, 60);
 			this->numericUpDown30->Name = L"numericUpDown30";
-			this->numericUpDown30->Size = System::Drawing::Size(85, 28);
+			this->numericUpDown30->Size = System::Drawing::Size(85, 24);
 			this->numericUpDown30->TabIndex = 30;
 			this->numericUpDown30->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown30_ValueChanged);
 			// 
@@ -1640,45 +1582,18 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown29->Enabled = false;
 			this->numericUpDown29->Location = System::Drawing::Point(35, 60);
 			this->numericUpDown29->Name = L"numericUpDown29";
-			this->numericUpDown29->Size = System::Drawing::Size(85, 28);
+			this->numericUpDown29->Size = System::Drawing::Size(85, 24);
 			this->numericUpDown29->TabIndex = 29;
 			this->numericUpDown29->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown29_ValueChanged);
 			// 
-			// label36
-			// 
-			this->label36->AutoSize = true;
-			this->label36->Location = System::Drawing::Point(228, 32);
-			this->label36->Name = L"label36";
-			this->label36->Size = System::Drawing::Size(104, 19);
-			this->label36->TabIndex = 17;
-			this->label36->Text = L"温度（℃）";
-			// 
-			// label37
-			// 
-			this->label37->AutoSize = true;
-			this->label37->Location = System::Drawing::Point(134, 32);
-			this->label37->Name = L"label37";
-			this->label37->Size = System::Drawing::Size(47, 19);
-			this->label37->TabIndex = 16;
-			this->label37->Text = L"湿度";
-			// 
-			// label38
-			// 
-			this->label38->AutoSize = true;
-			this->label38->Location = System::Drawing::Point(39, 32);
-			this->label38->Name = L"label38";
-			this->label38->Size = System::Drawing::Size(85, 19);
-			this->label38->TabIndex = 15;
-			this->label38->Text = L"有毒气体";
-			// 
 			// groupBox8
 			// 
-			this->groupBox8->Controls->Add(this->numericUpDown34);
-			this->groupBox8->Controls->Add(this->numericUpDown33);
-			this->groupBox8->Controls->Add(this->numericUpDown32);
 			this->groupBox8->Controls->Add(this->label39);
+			this->groupBox8->Controls->Add(this->numericUpDown34);
 			this->groupBox8->Controls->Add(this->label40);
+			this->groupBox8->Controls->Add(this->numericUpDown33);
 			this->groupBox8->Controls->Add(this->label41);
+			this->groupBox8->Controls->Add(this->numericUpDown32);
 			this->groupBox8->Location = System::Drawing::Point(878, 462);
 			this->groupBox8->Name = L"groupBox8";
 			this->groupBox8->Size = System::Drawing::Size(377, 97);
@@ -1692,7 +1607,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown34->Enabled = false;
 			this->numericUpDown34->Location = System::Drawing::Point(231, 60);
 			this->numericUpDown34->Name = L"numericUpDown34";
-			this->numericUpDown34->Size = System::Drawing::Size(85, 28);
+			this->numericUpDown34->Size = System::Drawing::Size(85, 24);
 			this->numericUpDown34->TabIndex = 31;
 			this->numericUpDown34->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown34_ValueChanged);
 			// 
@@ -1702,7 +1617,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown33->Enabled = false;
 			this->numericUpDown33->Location = System::Drawing::Point(138, 60);
 			this->numericUpDown33->Name = L"numericUpDown33";
-			this->numericUpDown33->Size = System::Drawing::Size(85, 28);
+			this->numericUpDown33->Size = System::Drawing::Size(85, 24);
 			this->numericUpDown33->TabIndex = 30;
 			this->numericUpDown33->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown33_ValueChanged);
 			// 
@@ -1712,36 +1627,9 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown32->Enabled = false;
 			this->numericUpDown32->Location = System::Drawing::Point(35, 60);
 			this->numericUpDown32->Name = L"numericUpDown32";
-			this->numericUpDown32->Size = System::Drawing::Size(85, 28);
+			this->numericUpDown32->Size = System::Drawing::Size(85, 24);
 			this->numericUpDown32->TabIndex = 29;
 			this->numericUpDown32->ValueChanged += gcnew System::EventHandler(this, &Form1::numericUpDown32_ValueChanged);
-			// 
-			// label39
-			// 
-			this->label39->AutoSize = true;
-			this->label39->Location = System::Drawing::Point(228, 32);
-			this->label39->Name = L"label39";
-			this->label39->Size = System::Drawing::Size(104, 19);
-			this->label39->TabIndex = 17;
-			this->label39->Text = L"温度（℃）";
-			// 
-			// label40
-			// 
-			this->label40->AutoSize = true;
-			this->label40->Location = System::Drawing::Point(134, 32);
-			this->label40->Name = L"label40";
-			this->label40->Size = System::Drawing::Size(47, 19);
-			this->label40->TabIndex = 16;
-			this->label40->Text = L"湿度";
-			// 
-			// label41
-			// 
-			this->label41->AutoSize = true;
-			this->label41->Location = System::Drawing::Point(39, 32);
-			this->label41->Name = L"label41";
-			this->label41->Size = System::Drawing::Size(85, 19);
-			this->label41->TabIndex = 15;
-			this->label41->Text = L"有毒气体";
 			// 
 			// groupBox9
 			// 
@@ -1770,7 +1658,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label62->ForeColor = System::Drawing::Color::Red;
 			this->label62->Location = System::Drawing::Point(473, 36);
 			this->label62->Name = L"label62";
-			this->label62->Size = System::Drawing::Size(34, 24);
+			this->label62->Size = System::Drawing::Size(28, 19);
 			this->label62->TabIndex = 49;
 			this->label62->Text = L"●";
 			// 
@@ -1779,7 +1667,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label64->AutoSize = true;
 			this->label64->Location = System::Drawing::Point(319, 41);
 			this->label64->Name = L"label64";
-			this->label64->Size = System::Drawing::Size(95, 19);
+			this->label64->Size = System::Drawing::Size(75, 15);
 			this->label64->TabIndex = 48;
 			this->label64->Text = L"自动发送:";
 			// 
@@ -1791,7 +1679,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label61->ForeColor = System::Drawing::Color::Red;
 			this->label61->Location = System::Drawing::Point(417, 38);
 			this->label61->Name = L"label61";
-			this->label61->Size = System::Drawing::Size(34, 24);
+			this->label61->Size = System::Drawing::Size(28, 19);
 			this->label61->TabIndex = 46;
 			this->label61->Text = L"●";
 			// 
@@ -1814,7 +1702,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			// 
 			this->numericUpDown52->Location = System::Drawing::Point(283, 44);
 			this->numericUpDown52->Name = L"numericUpDown52";
-			this->numericUpDown52->Size = System::Drawing::Size(55, 28);
+			this->numericUpDown52->Size = System::Drawing::Size(55, 24);
 			this->numericUpDown52->TabIndex = 25;
 			// 
 			// numericUpDown51
@@ -1823,7 +1711,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown51->Location = System::Drawing::Point(153, 44);
 			this->numericUpDown51->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 360, 0, 0, 0 });
 			this->numericUpDown51->Name = L"numericUpDown51";
-			this->numericUpDown51->Size = System::Drawing::Size(93, 28);
+			this->numericUpDown51->Size = System::Drawing::Size(93, 24);
 			this->numericUpDown51->TabIndex = 24;
 			this->numericUpDown51->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 360, 0, 0, 0 });
 			// 
@@ -1834,7 +1722,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown50->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 180, 0, 0, 0 });
 			this->numericUpDown50->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 180, 0, 0, System::Int32::MinValue });
 			this->numericUpDown50->Name = L"numericUpDown50";
-			this->numericUpDown50->Size = System::Drawing::Size(90, 28);
+			this->numericUpDown50->Size = System::Drawing::Size(90, 24);
 			this->numericUpDown50->TabIndex = 23;
 			// 
 			// label51
@@ -1842,7 +1730,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label51->AutoSize = true;
 			this->label51->Location = System::Drawing::Point(260, 22);
 			this->label51->Name = L"label51";
-			this->label51->Size = System::Drawing::Size(107, 19);
+			this->label51->Size = System::Drawing::Size(85, 15);
 			this->label51->TabIndex = 17;
 			this->label51->Text = L"误差(0.01)";
 			// 
@@ -1851,7 +1739,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label50->AutoSize = true;
 			this->label50->Location = System::Drawing::Point(164, 20);
 			this->label50->Name = L"label50";
-			this->label50->Size = System::Drawing::Size(47, 19);
+			this->label50->Size = System::Drawing::Size(37, 15);
 			this->label50->TabIndex = 16;
 			this->label50->Text = L"纬度";
 			// 
@@ -1860,7 +1748,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label49->AutoSize = true;
 			this->label49->Location = System::Drawing::Point(50, 22);
 			this->label49->Name = L"label49";
-			this->label49->Size = System::Drawing::Size(47, 19);
+			this->label49->Size = System::Drawing::Size(37, 15);
 			this->label49->TabIndex = 15;
 			this->label49->Text = L"经度";
 			// 
@@ -1883,7 +1771,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			// 
 			this->numericUpDown53->Location = System::Drawing::Point(283, 44);
 			this->numericUpDown53->Name = L"numericUpDown53";
-			this->numericUpDown53->Size = System::Drawing::Size(55, 28);
+			this->numericUpDown53->Size = System::Drawing::Size(55, 24);
 			this->numericUpDown53->TabIndex = 25;
 			// 
 			// numericUpDown54
@@ -1892,7 +1780,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown54->Location = System::Drawing::Point(153, 44);
 			this->numericUpDown54->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 360, 0, 0, 0 });
 			this->numericUpDown54->Name = L"numericUpDown54";
-			this->numericUpDown54->Size = System::Drawing::Size(93, 28);
+			this->numericUpDown54->Size = System::Drawing::Size(93, 24);
 			this->numericUpDown54->TabIndex = 24;
 			this->numericUpDown54->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 360, 0, 0, 0 });
 			// 
@@ -1903,7 +1791,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown55->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 180, 0, 0, 0 });
 			this->numericUpDown55->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 180, 0, 0, System::Int32::MinValue });
 			this->numericUpDown55->Name = L"numericUpDown55";
-			this->numericUpDown55->Size = System::Drawing::Size(90, 28);
+			this->numericUpDown55->Size = System::Drawing::Size(90, 24);
 			this->numericUpDown55->TabIndex = 23;
 			// 
 			// label52
@@ -1911,7 +1799,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label52->AutoSize = true;
 			this->label52->Location = System::Drawing::Point(261, 20);
 			this->label52->Name = L"label52";
-			this->label52->Size = System::Drawing::Size(107, 19);
+			this->label52->Size = System::Drawing::Size(85, 15);
 			this->label52->TabIndex = 17;
 			this->label52->Text = L"误差(0.01)";
 			// 
@@ -1920,7 +1808,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label53->AutoSize = true;
 			this->label53->Location = System::Drawing::Point(164, 22);
 			this->label53->Name = L"label53";
-			this->label53->Size = System::Drawing::Size(47, 19);
+			this->label53->Size = System::Drawing::Size(37, 15);
 			this->label53->TabIndex = 16;
 			this->label53->Text = L"纬度";
 			// 
@@ -1929,7 +1817,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label54->AutoSize = true;
 			this->label54->Location = System::Drawing::Point(52, 22);
 			this->label54->Name = L"label54";
-			this->label54->Size = System::Drawing::Size(47, 19);
+			this->label54->Size = System::Drawing::Size(37, 15);
 			this->label54->TabIndex = 15;
 			this->label54->Text = L"经度";
 			// 
@@ -1952,7 +1840,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			// 
 			this->numericUpDown56->Location = System::Drawing::Point(283, 44);
 			this->numericUpDown56->Name = L"numericUpDown56";
-			this->numericUpDown56->Size = System::Drawing::Size(55, 28);
+			this->numericUpDown56->Size = System::Drawing::Size(55, 24);
 			this->numericUpDown56->TabIndex = 25;
 			// 
 			// numericUpDown57
@@ -1961,7 +1849,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown57->Location = System::Drawing::Point(153, 44);
 			this->numericUpDown57->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 360, 0, 0, 0 });
 			this->numericUpDown57->Name = L"numericUpDown57";
-			this->numericUpDown57->Size = System::Drawing::Size(93, 28);
+			this->numericUpDown57->Size = System::Drawing::Size(93, 24);
 			this->numericUpDown57->TabIndex = 24;
 			this->numericUpDown57->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 360, 0, 0, 0 });
 			// 
@@ -1972,7 +1860,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->numericUpDown58->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 180, 0, 0, 0 });
 			this->numericUpDown58->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 180, 0, 0, System::Int32::MinValue });
 			this->numericUpDown58->Name = L"numericUpDown58";
-			this->numericUpDown58->Size = System::Drawing::Size(90, 28);
+			this->numericUpDown58->Size = System::Drawing::Size(90, 24);
 			this->numericUpDown58->TabIndex = 23;
 			// 
 			// label55
@@ -1980,7 +1868,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label55->AutoSize = true;
 			this->label55->Location = System::Drawing::Point(261, 20);
 			this->label55->Name = L"label55";
-			this->label55->Size = System::Drawing::Size(107, 19);
+			this->label55->Size = System::Drawing::Size(85, 15);
 			this->label55->TabIndex = 17;
 			this->label55->Text = L"误差(0.01)";
 			// 
@@ -1989,7 +1877,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label56->AutoSize = true;
 			this->label56->Location = System::Drawing::Point(173, 24);
 			this->label56->Name = L"label56";
-			this->label56->Size = System::Drawing::Size(47, 19);
+			this->label56->Size = System::Drawing::Size(37, 15);
 			this->label56->TabIndex = 16;
 			this->label56->Text = L"纬度";
 			// 
@@ -1998,7 +1886,7 @@ private: System::Windows::Forms::Timer^  timer4;
 			this->label57->AutoSize = true;
 			this->label57->Location = System::Drawing::Point(50, 22);
 			this->label57->Name = L"label57";
-			this->label57->Size = System::Drawing::Size(47, 19);
+			this->label57->Size = System::Drawing::Size(37, 15);
 			this->label57->TabIndex = 15;
 			this->label57->Text = L"经度";
 			// 
@@ -2010,9 +1898,135 @@ private: System::Windows::Forms::Timer^  timer4;
 			// 
 			this->timer4->Tick += gcnew System::EventHandler(this, &Form1::timer4_Tick);
 			// 
+			// label8
+			// 
+			this->label8->AutoSize = true;
+			this->label8->Location = System::Drawing::Point(24, 132);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(67, 15);
+			this->label8->TabIndex = 45;
+			this->label8->Text = L"有毒气体";
+			// 
+			// label19
+			// 
+			this->label19->AutoSize = true;
+			this->label19->Location = System::Drawing::Point(24, 65);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(75, 15);
+			this->label19->TabIndex = 44;
+			this->label19->Text = L"湿度（%）";
+			// 
+			// label23
+			// 
+			this->label23->AutoSize = true;
+			this->label23->Location = System::Drawing::Point(24, 99);
+			this->label23->Name = L"label23";
+			this->label23->Size = System::Drawing::Size(52, 15);
+			this->label23->TabIndex = 46;
+			this->label23->Text = L"震荡度";
+			// 
+			// label24
+			// 
+			this->label24->AutoSize = true;
+			this->label24->Location = System::Drawing::Point(23, 26);
+			this->label24->Name = L"label24";
+			this->label24->Size = System::Drawing::Size(82, 15);
+			this->label24->TabIndex = 43;
+			this->label24->Text = L"温度（℃）";
+			// 
+			// label25
+			// 
+			this->label25->AutoSize = true;
+			this->label25->Location = System::Drawing::Point(20, 126);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(67, 15);
+			this->label25->TabIndex = 45;
+			this->label25->Text = L"有毒气体";
+			// 
+			// label27
+			// 
+			this->label27->AutoSize = true;
+			this->label27->Location = System::Drawing::Point(20, 59);
+			this->label27->Name = L"label27";
+			this->label27->Size = System::Drawing::Size(75, 15);
+			this->label27->TabIndex = 44;
+			this->label27->Text = L"湿度（%）";
+			// 
+			// label31
+			// 
+			this->label31->AutoSize = true;
+			this->label31->Location = System::Drawing::Point(20, 93);
+			this->label31->Name = L"label31";
+			this->label31->Size = System::Drawing::Size(52, 15);
+			this->label31->TabIndex = 46;
+			this->label31->Text = L"震荡度";
+			// 
+			// label32
+			// 
+			this->label32->AutoSize = true;
+			this->label32->Location = System::Drawing::Point(19, 20);
+			this->label32->Name = L"label32";
+			this->label32->Size = System::Drawing::Size(82, 15);
+			this->label32->TabIndex = 43;
+			this->label32->Text = L"温度（℃）";
+			// 
+			// label36
+			// 
+			this->label36->AutoSize = true;
+			this->label36->Location = System::Drawing::Point(34, 32);
+			this->label36->Name = L"label36";
+			this->label36->Size = System::Drawing::Size(82, 15);
+			this->label36->TabIndex = 45;
+			this->label36->Text = L"温度（℃）";
+			// 
+			// label37
+			// 
+			this->label37->AutoSize = true;
+			this->label37->Location = System::Drawing::Point(150, 32);
+			this->label37->Name = L"label37";
+			this->label37->Size = System::Drawing::Size(37, 15);
+			this->label37->TabIndex = 44;
+			this->label37->Text = L"湿度";
+			// 
+			// label38
+			// 
+			this->label38->AutoSize = true;
+			this->label38->Location = System::Drawing::Point(255, 32);
+			this->label38->Name = L"label38";
+			this->label38->Size = System::Drawing::Size(67, 15);
+			this->label38->TabIndex = 43;
+			this->label38->Text = L"有毒气体";
+			// 
+			// label39
+			// 
+			this->label39->AutoSize = true;
+			this->label39->Location = System::Drawing::Point(28, 32);
+			this->label39->Name = L"label39";
+			this->label39->Size = System::Drawing::Size(82, 15);
+			this->label39->TabIndex = 45;
+			this->label39->Text = L"温度（℃）";
+			// 
+			// label40
+			// 
+			this->label40->AutoSize = true;
+			this->label40->Location = System::Drawing::Point(144, 32);
+			this->label40->Name = L"label40";
+			this->label40->Size = System::Drawing::Size(37, 15);
+			this->label40->TabIndex = 44;
+			this->label40->Text = L"湿度";
+			// 
+			// label41
+			// 
+			this->label41->AutoSize = true;
+			this->label41->Location = System::Drawing::Point(249, 32);
+			this->label41->Name = L"label41";
+			this->label41->Size = System::Drawing::Size(67, 15);
+			this->label41->TabIndex = 43;
+			this->label41->Text = L"有毒气体";
+			// 
 			// Form1
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(9, 18);
+			this->AutoScaleDimensions = System::Drawing::SizeF(7, 14);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Aqua;
 			this->ClientSize = System::Drawing::Size(1491, 666);
@@ -2554,7 +2568,7 @@ private: System::Void timer3_Tick(System::Object^  sender, System::EventArgs^  e
 						 buffer[i] = com->ReadChar();
 						 }
 						 String^buff = gcnew String(buffer);
-						 if (buff->Length > 4)
+						 if (buff->Length > 12)
 						 {
 							// listBox2->Items->Add(buff);
 							 array<String^> ^split = gcnew array<String^>(4);
@@ -2562,19 +2576,31 @@ private: System::Void timer3_Tick(System::Object^  sender, System::EventArgs^  e
 							 split = buff->Split(59);
 
 							this->numericUpDown26->Text = split[1]; this->numericUpDown27->Text = split[2]; this->numericUpDown28->Text = split[3];
-							this->numericUpDown29->Text = split[1]; this->numericUpDown30->Text = split[2]; this->numericUpDown31->Text = split[3];
-							this->numericUpDown32->Text = split[1]; this->numericUpDown33->Text = split[2]; this->numericUpDown34->Text = split[3];
-							if (Int32::Parse(split[1]) >= 1)
+							this->numericUpDown29->Text = split[5]; this->numericUpDown30->Text = split[6]; this->numericUpDown31->Text = split[7];
+							this->numericUpDown32->Text = split[9]; this->numericUpDown33->Text = split[10]; this->numericUpDown34->Text = split[11];
+							if (Int32::Parse(split[0]) >= 1)
 							{
-								this->label44->ForeColor = System::Drawing::Color::Lime;
-								this->label46->ForeColor = System::Drawing::Color::Lime;
 								this->label43->ForeColor = System::Drawing::Color::Lime;
 							}
 							else
 							{
-								this->label44->ForeColor = System::Drawing::Color::Red;
-								this->label46->ForeColor = System::Drawing::Color::Red;
 								this->label43->ForeColor = System::Drawing::Color::Red;
+							}
+							if (Int32::Parse(split[4]) >= 1)
+							{
+								this->label44->ForeColor = System::Drawing::Color::Lime;
+							}
+							else
+							{
+								this->label44->ForeColor = System::Drawing::Color::Red;
+							}
+							if (Int32::Parse(split[8]) >= 1)
+							{
+								this->label46->ForeColor = System::Drawing::Color::Lime;
+							}
+							else
+							{
+								this->label46->ForeColor = System::Drawing::Color::Red;
 							}
 						 }
 					 }
